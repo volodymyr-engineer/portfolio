@@ -2,6 +2,18 @@
   "name": "portfolio-v3",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "22.16.0",
+    "npm": "10.9.2"
+  },
+  "repository": {
+    "home-page": "",
+    "repository": "https://github.com/volodymyr-engineer/portfolio"
+  },
+  "author": {
+    "name": "Volodymyr Shylo",
+    "email": "volodymyr.shylo.professional@gmail.com"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
