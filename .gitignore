@@ -4,3 +4,6 @@
 .next
 node_modules
 build
+
+*storybook.log
+storybook-static
