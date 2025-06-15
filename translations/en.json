@@ -1,0 +1,12 @@
+{
+  "Header": {
+    "title": "Volodymyr Shylo",
+    "subtitle": "JavaScript Engineer",
+    "description": "I build accessible, pixel-perfect digital experiences for the web.",
+    "navigation-anchors": {
+      "about": "About",
+      "experience": "Experience",
+      "blog": "Blog"
+    }
+  }
+}
