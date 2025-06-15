@@ -31,6 +31,24 @@ const eslintConfig: Linter.Config[] = [
 			]
 		}
 	},
+	{
+		files: ['**/*.tsx'],
+		rules: {
+			'react/jsx-no-literals': 'error',
+			'no-restricted-imports': [
+				'error',
+				{
+					name: 'next/link',
+					message: 'Please import from `@/i18n/navigation` instead.'
+				},
+				{
+					name: 'next/navigation',
+					importNames: ['redirect', 'permanentRedirect', 'useRouter', 'usePathname'],
+					message: 'Please import from `@/i18n/navigation` instead.'
+				}
+			]
+		}
+	},
 	...storybook.configs['flat/recommended'],
 	eslintPluginPrettierRecommended
 ];
