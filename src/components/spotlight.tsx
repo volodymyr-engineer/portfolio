@@ -9,7 +9,7 @@ const Spotlight = () => {
 	const dynamicSpotlightPosition = (x: number, y: number) => {
 		const spotlight = spotlightRef.current;
 		if (!spotlight) return;
-		spotlight.style.background = `radial-gradient(600px at ${x}px ${y}px, rgba(29, 78, 216, 0.15), transparent 80%)`;
+		spotlight.style.background = `radial-gradient(550px at ${x}px ${y}px, rgba(29, 78, 216, 0.175), transparent 80%)`;
 	};
 
 	useEffect(() => {
