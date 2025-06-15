@@ -9,7 +9,7 @@ const Spotlight = () => {
 	const dynamicSpotlightPosition = (x: number, y: number) => {
 		const spotlight = spotlightRef.current;
 		if (!spotlight) return;
-		spotlight.style.background = `radial-gradient(550px at ${x}px ${y}px, rgba(29, 78, 216, 0.175), transparent 80%)`;
+		spotlight.style.background = `radial-gradient(550px at ${x}px ${y}px, rgba(29, 78, 216, 0.15), transparent 80%)`;
 	};
 
 	useEffect(() => {
@@ -36,8 +36,7 @@ const Spotlight = () => {
 	return (
 		<div
 			ref={spotlightRef}
-			className="pointer-events-none fixed inset-0 z-0 transition duration-300 ease-out lg:absolute"
-			style={{ mixBlendMode: 'lighten' }}
+			className="pointer-events-none fixed inset-0 z-0 mix-blend-lighten transition duration-300 ease-out lg:absolute"
 		/>
 	);
 };
