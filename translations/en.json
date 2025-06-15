@@ -4,9 +4,39 @@
     "subtitle": "JavaScript Engineer",
     "description": "I build accessible, pixel-perfect digital experiences for the web.",
     "navigation-anchors": {
-      "about": "About",
-      "experience": "Experience",
-      "blog": "Blog"
+      "about": {
+        "label": "About",
+        "description": "Move to block about me on this web page and learn more about me."
+      },
+      "experience": {
+        "label": "Experience",
+        "description": "Move to block experience on this web page and learn more about my professional background."
+      },
+      "services": {
+        "label": "Services",
+        "description": "Move to block services on this web page and learn more about the services I provide."
+      },
+      "blog": {
+        "label": "Blog",
+        "description": "Move to my blog on this web page and learn more about my articles."
+      }
+    },
+    "socials-media": {
+      "github": {
+        "label": "GitHub",
+        "description": "Visit my GitHub profile in a new tab to see my projects and contributions."
+      },
+      "linkedin": {
+        "label": "LinkedIn",
+        "description": "Open in a new tab my LinkedIn profile and connect to my professional network."
+      },
+      "codepen": {
+        "label": "CodePen",
+        "description": "Explore my CodePen profile to see my front-end experiments and demos in a new tab."
+      }
     }
+  },
+  "Main": {
+    "about-me": {}
   }
 }
