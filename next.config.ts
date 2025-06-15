@@ -1,7 +1,20 @@
-import type { NextConfig } from "next";
+import ESLintPlugin from 'eslint-webpack-plugin';
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+	reactStrictMode: true,
+
+	webpack: (config) => {
+		config.plugins.push(
+			new ESLintPlugin({
+				extensions: ['ts', 'tsx'],
+				exclude: ['node_modules'],
+				failOnError: true
+			})
+		);
+
+		return config;
+	}
 };
 
 export default nextConfig;

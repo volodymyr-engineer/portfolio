@@ -1,0 +1,23 @@
+{
+  "plugins": [
+    "prettier-plugin-tailwindcss"
+  ],
+  "tailwindConfig": "./src/theme.config.css",
+  "singleQuote": true,
+  "bracketSpacing": true,
+  "semi": true,
+  "trailingComma": "none",
+  "arrowParens": "always",
+  "useTabs": true,
+  "tabWidth": 2,
+  "overrides": [
+    {
+      "files": [
+        "*.{ts,tsx}"
+      ],
+      "options": {
+        "printWidth": 140
+      }
+    }
+  ]
+}
