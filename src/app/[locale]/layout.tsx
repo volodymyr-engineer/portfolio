@@ -28,11 +28,11 @@ const LocaleLayout = async ({ children, params }: LocaleLayoutProps) => {
 
 	return (
 		<html lang={locale}>
-			<body className="bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900">
-				<NextIntlClientProvider timeZone="Europe/Kyiv" messages={messages}>
+			<NextIntlClientProvider timeZone="Europe/Kyiv" messages={messages}>
+				<body className="bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900">
 					{children}
-				</NextIntlClientProvider>
-			</body>
+				</body>
+			</NextIntlClientProvider>
 		</html>
 	);
 };
