@@ -1,16 +1,29 @@
-import Link from 'next/link';
+import { useLocale, useTranslations } from 'next-intl';
+import { Link } from 'src/i18n/navigation';
 import { routesConfig } from 'src/routes.config';
 
 export const HeaderBlock = () => {
+	const translation = useTranslations('Header');
+	const locale = useLocale();
+
 	return (
 		<>
 			<h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">
-				<Link href={routesConfig.app.frontend.public.home.root} role="link" locale="en">
-					Volodymyr Shylo
+				<Link
+					locale={locale}
+					role="link"
+					href={routesConfig.app.frontend.public.home.root}
+					aria-label={translation('navigation-anchors.about.description')}
+					className="inline-flex"
+				>
+					<span>{translation('title')}</span>
+					<svg className="h-[20px] w-[20px]" aria-hidden="true">
+						<use href="/sprite.svg#flag-ukraine" />
+					</svg>
 				</Link>
 			</h1>
-			<h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">JavaScript Engineer</h2>
-			<p className="mt-4 max-w-xs leading-normal">I build accessible, pixel-perfect digital experiences for the web.</p>
+			<h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">{translation('subtitle')}</h2>
+			<p className="mt-4 max-w-xs leading-normal">{translation('description')}</p>
 		</>
 	);
 };
