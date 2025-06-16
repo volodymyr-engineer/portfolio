@@ -4,6 +4,7 @@
     "subtitle": "JavaScript Engineer",
     "description": "I build accessible, pixel-perfect digital experiences for the web.",
     "navigation-anchors": {
+      "label": "Internal anchors on the current page",
       "about": {
         "label": "About",
         "description": "Move to block about me on this web page and learn more about me."
@@ -22,6 +23,7 @@
       }
     },
     "socials-media": {
+      "label": "You can find me on that social media",
       "github": {
         "label": "GitHub",
         "description": "Visit my GitHub profile in a new tab to see my projects and contributions."
@@ -37,6 +39,8 @@
     }
   },
   "Main": {
-    "about-me": {}
+    "about-me": {
+      "label": "Block - about me"
+    }
   }
 }
