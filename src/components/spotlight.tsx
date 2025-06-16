@@ -13,6 +13,8 @@ const Spotlight = () => {
 	};
 
 	useEffect(() => {
+		if (window.innerWidth < 1024) return;
+
 		const handleMouseMove = (event: MouseEvent) => {
 			if (animationFrameId.current) {
 				cancelAnimationFrame(animationFrameId.current);
@@ -36,7 +38,7 @@ const Spotlight = () => {
 	return (
 		<div
 			ref={spotlightRef}
-			className="pointer-events-none fixed inset-0 z-0 mix-blend-lighten transition duration-300 ease-out lg:absolute"
+			className="pointer-events-none fixed inset-0 z-0 hidden mix-blend-lighten transition duration-300 ease-out lg:absolute lg:block"
 		/>
 	);
 };
