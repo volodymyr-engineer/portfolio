@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+:root {
+  *:focus {
+    @apply focus:outline-2 focus:outline-offset-2 focus:outline-yellow-500 focus:ring-2 focus:ring-yellow-500;
+  }
+}
+
 @theme inline {
   --font-sans: var(--font-inter-sans);
   --font-mono: var(--font-inter-mono);
