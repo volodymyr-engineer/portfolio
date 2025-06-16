@@ -1,5 +1,6 @@
 import { NextIntlClientProvider, hasLocale } from 'next-intl';
 import { getMessages, setRequestLocale } from 'next-intl/server';
+import { Inter } from 'next/font/google';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
@@ -16,6 +17,13 @@ export const metadata: Metadata = {
 	description: ''
 };
 
+const inter = Inter({
+	variable: '--font-inter',
+	subsets: ['latin'],
+	style: 'normal',
+	preload: true
+});
+
 const LocaleLayout = async ({ children, params }: LocaleLayoutProps) => {
 	const { locale } = await params;
 
@@ -29,7 +37,9 @@ const LocaleLayout = async ({ children, params }: LocaleLayoutProps) => {
 	return (
 		<html lang={locale}>
 			<NextIntlClientProvider timeZone="Europe/Kyiv" messages={messages}>
-				<body className="bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900">
+				<body
+					className={`${inter.className} bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900`}
+				>
 					{children}
 				</body>
 			</NextIntlClientProvider>
