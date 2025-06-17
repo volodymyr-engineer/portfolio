@@ -10,7 +10,8 @@ export const routesConfig = Object.freeze({
 						services: '#services',
 						blog: '#blog'
 					}
-				}
+				},
+				resume: '/resume.pdf'
 			}
 		},
 		backend: {}
