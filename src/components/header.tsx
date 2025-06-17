@@ -17,7 +17,7 @@ export const HeaderBlock = () => {
 					className="inline-flex"
 				>
 					<span>{translation('title')}</span>
-					<svg className="mt-[3px] ml-3 h-8 w-8 rounded-[8px]" aria-hidden="true">
+					<svg className="ml-2 h-5 w-5 rounded-[6px]" aria-hidden="true">
 						<use href="/sprite.svg#flag-ukraine" />
 					</svg>
 				</Link>
