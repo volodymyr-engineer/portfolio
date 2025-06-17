@@ -28,4 +28,12 @@
         <path d="M3.06 41.732L32 60.932l28.94-19.2V22.268L32 3.068l-28.94 19.2zm57.878 0L32 22.268 3.06 41.732m0-19.463L32 41.47l28.94-19.2M32 3.068v19.2m0 19.463v19.2"
               stroke-width="5"/>
     </symbol>
+    <symbol viewBox="0 0 20 20"
+            fill="currentColor"
+            id="icon-arrow-right"
+    >
+        <path fill-rule="evenodd"
+              d="M5.22 14.78a.75.75 0 001.06 0l7.22-7.22v5.69a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75h-7.5a.75.75 0 000 1.5h5.69l-7.22 7.22a.75.75 0 000 1.06z"
+              clip-rule="evenodd"/>
+    </symbol>
 </svg>
