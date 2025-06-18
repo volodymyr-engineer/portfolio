@@ -19,8 +19,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "storybook:run": "storybook dev -p 6006",
+    "storybook:build": "storybook build"
   },
   "dependencies": {
     "next": "15.3.3",
