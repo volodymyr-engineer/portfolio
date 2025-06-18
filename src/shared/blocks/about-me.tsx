@@ -1,6 +1,6 @@
 import { useTranslations } from 'next-intl';
 
-export const AboutMeSection = () => {
+export const AboutMe = () => {
 	const translation = useTranslations('Main.about-me');
 
 	return (
