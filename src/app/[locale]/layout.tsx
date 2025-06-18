@@ -38,7 +38,7 @@ const LocaleLayout = async ({ children, params }: LocaleLayoutProps) => {
 		<html lang={locale}>
 			<NextIntlClientProvider timeZone="Europe/Kyiv" messages={messages}>
 				<body
-					className={`${inter.className} bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900`}
+					className={`${inter.className} relative bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900`}
 				>
 					{children}
 				</body>
