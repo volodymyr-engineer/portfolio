@@ -7,7 +7,6 @@ export const routesConfig = Object.freeze({
 					anchors: {
 						about: '#about',
 						experience: '#experience',
-						services: '#services',
 						blog: '#blog'
 					}
 				},
@@ -17,8 +16,15 @@ export const routesConfig = Object.freeze({
 		backend: {}
 	},
 	external: {
-		linkedin: 'https://www.linkedin.com/in/shylo-volodymyr',
-		github: 'https://github.com/volodymyr-engineer',
-		codepen: 'https://codepen.io/mind-controle'
+		socialMedia: {
+			linkedin: 'https://www.linkedin.com/in/shylo-volodymyr',
+			github: 'https://github.com/volodymyr-engineer',
+			codepen: 'https://codepen.io/mind-controle'
+		},
+		companies: {
+			noviSign: 'https://www.novisign.com',
+			chatbotsStudio: 'https://chatbots.studio',
+			brainence: 'https://brainence.com'
+		}
 	}
 });
