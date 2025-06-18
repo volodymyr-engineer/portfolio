@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from 'react';
 
-const Spotlight = () => {
+export const SpotlightEffect = () => {
 	const spotlightRef = useRef<HTMLDivElement>(null);
 	const animationFrameId = useRef<number | null>(null);
 
@@ -21,7 +21,7 @@ const Spotlight = () => {
 			}
 
 			animationFrameId.current = requestAnimationFrame(() => {
-				dynamicSpotlightPosition(event.clientX, event.clientY);
+				dynamicSpotlightPosition(event.pageX, event.pageY);
 			});
 		};
 
@@ -42,5 +42,3 @@ const Spotlight = () => {
 		/>
 	);
 };
-
-export { Spotlight };
