@@ -2,7 +2,7 @@ import { useLocale, useTranslations } from 'next-intl';
 import { Link } from 'src/i18n/navigation';
 import { routesConfig } from 'src/routes.config';
 
-export const HeaderBlock = () => {
+export const Header = () => {
 	const translation = useTranslations('Header');
 	const locale = useLocale();
 
