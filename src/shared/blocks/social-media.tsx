@@ -8,7 +8,7 @@ export const SocialMedia = () => {
 		<ul className="mt-8 ml-1 flex items-center" aria-label={translation('socials-media.label')}>
 			<li className="mr-5 shrink-0 text-xs">
 				<a
-					href={routesConfig.external.github}
+					href={routesConfig.external.socialMedia.github}
 					target="_blank"
 					rel="noreferrer noopener"
 					title={translation('socials-media.github.label')}
@@ -23,7 +23,7 @@ export const SocialMedia = () => {
 			</li>
 			<li className="mr-5 shrink-0 text-xs">
 				<a
-					href={routesConfig.external.linkedin}
+					href={routesConfig.external.socialMedia.linkedin}
 					target="_blank"
 					rel="noreferrer noopener"
 					title={translation('socials-media.linkedin.label')}
@@ -38,7 +38,7 @@ export const SocialMedia = () => {
 			</li>
 			<li className="mr-5 shrink-0 text-xs">
 				<a
-					href={routesConfig.external.codepen}
+					href={routesConfig.external.socialMedia.codepen}
 					target="_blank"
 					rel="noreferrer noopener"
 					title={translation('socials-media.codepen.label')}
