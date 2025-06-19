@@ -5,6 +5,7 @@ import { Anchors } from 'src/shared/blocks/anchors';
 import { SocialMedia } from 'src/shared/blocks/social-media';
 import { AboutMe } from 'src/shared/blocks/about-me';
 import { Experience } from 'src/shared/blocks/experience';
+import { Values } from 'src/shared/blocks/values';
 
 const HomePage: NextPage = () => {
 	return (
@@ -22,6 +23,7 @@ const HomePage: NextPage = () => {
 					<main className="pt-24 lg:w-[52%] lg:py-24">
 						<AboutMe />
 						<Experience />
+						<Values />
 					</main>
 				</div>
 			</div>
