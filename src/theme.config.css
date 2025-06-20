@@ -10,3 +10,20 @@
   --font-sans: var(--font-inter-sans);
   --font-mono: var(--font-inter-mono);
 }
+
+@keyframes rotate {
+  0% {
+    border-radius: 50%;
+    transform: translateZ(600px) scale(0.1) rotate(0deg);
+    opacity: 0;
+  }
+  25% {
+    border-radius: 0;
+    opacity: 1;
+  }
+  100% {
+    border-radius: 50%;
+    transform: translateZ(-600px) scale(1.5) rotate(360deg);
+    opacity: 0;
+  }
+}

@@ -6,6 +6,7 @@ import { SocialMedia } from 'src/shared/blocks/social-media';
 import { AboutMe } from 'src/shared/blocks/about-me';
 import { Experience } from 'src/shared/blocks/experience';
 import { Values } from 'src/shared/blocks/values';
+import { PortalAnimation } from 'src/shared/components/portal-animation';
 
 const HomePage: NextPage = () => {
 	return (
@@ -24,6 +25,7 @@ const HomePage: NextPage = () => {
 						<AboutMe />
 						<Experience />
 						<Values />
+						<PortalAnimation />
 					</main>
 				</div>
 			</div>
