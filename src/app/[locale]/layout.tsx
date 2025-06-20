@@ -35,7 +35,7 @@ const LocaleLayout = async ({ children, params }: LocaleLayoutProps) => {
 	const messages = await getMessages();
 
 	return (
-		<html lang={locale}>
+		<html lang={locale} className="scroll-smooth">
 			<NextIntlClientProvider timeZone="Europe/Kyiv" messages={messages}>
 				<body
 					className={`${inter.className} relative bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900`}
