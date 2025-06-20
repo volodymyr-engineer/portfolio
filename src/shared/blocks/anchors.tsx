@@ -10,7 +10,7 @@ export const Anchors = () => {
 			<ul className="mt-16 w-max">
 				<li>
 					<Link
-						href={routesConfig.app.frontend.public.home.anchors.about}
+						href={`#${routesConfig.app.frontend.public.home.anchors.about}`}
 						role="navigation"
 						aria-label={translation('navigation-anchors.about.description')}
 						className="group flex items-center py-3"
@@ -23,7 +23,7 @@ export const Anchors = () => {
 				</li>
 				<li>
 					<Link
-						href={routesConfig.app.frontend.public.home.anchors.experience}
+						href={`#${routesConfig.app.frontend.public.home.anchors.experience}`}
 						role="navigation"
 						aria-label={translation('navigation-anchors.experience.description')}
 						className="group flex items-center py-3"
@@ -36,7 +36,7 @@ export const Anchors = () => {
 				</li>
 				<li>
 					<Link
-						href={routesConfig.app.frontend.public.home.anchors.blog}
+						href={`#${routesConfig.app.frontend.public.home.anchors.blog}`}
 						role="navigation"
 						aria-label={translation('navigation-anchors.blog.description')}
 						className="group flex items-center py-3"

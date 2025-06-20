@@ -5,9 +5,9 @@ export const routesConfig = Object.freeze({
 				home: {
 					root: '/',
 					anchors: {
-						about: '#about',
-						experience: '#experience',
-						blog: '#blog'
+						about: 'about',
+						experience: 'experience',
+						blog: 'blog'
 					}
 				},
 				resume: '/resume.pdf'
