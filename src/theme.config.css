@@ -2,7 +2,7 @@
 
 :root {
   *:focus {
-    @apply focus:outline-2 focus:outline-offset-2 focus:outline-yellow-500 focus:ring-2 focus:ring-yellow-500;
+    @apply focus:ring-2 focus:ring-yellow-500 focus:outline-2 focus:outline-offset-2 focus:outline-yellow-500;
   }
 }
 
