@@ -15,7 +15,6 @@ export default async function manifest(): Promise<MetadataRoute.Manifest> {
 		categories: [translate('categories')],
 		display: 'standalone',
 		orientation: 'natural',
-		scope: '/app/',
 		lang: locale,
 		dir: 'ltr',
 		icons: [
