@@ -4,7 +4,7 @@ import { localizations } from 'src/i18n/routing';
 
 export default async function manifest(): Promise<MetadataRoute.Manifest> {
 	const locale = localizations[0];
-	const translate = await getTranslations({ locale: locale, namespace: 'Metadata.web-manifest' });
+	const translate = await getTranslations({ locale: locale, namespace: 'SEO.web-manifest' });
 
 	return {
 		id: `${process.env.NEXT_PUBLIC_HTTP_PROTOCOL}://${process.env.NEXT_PUBLIC_HTTP_DOMAIN}`,
