@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: MetadataProps): Promise<Metad
 		title: translate('title'),
 		applicationName: translate('application-name'),
 		description: translate('description'),
-		keywords: translate('keywords'),
+		keywords: [translate('keywords')],
 		category: translate('category'),
 		verification: {
 			google: process.env.NEXT_PUBLIC_GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE
