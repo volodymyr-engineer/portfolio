@@ -32,7 +32,6 @@ export async function generateMetadata({ params }: MetadataProps): Promise<Metad
 		verification: {
 			google: process.env.NEXT_PUBLIC_GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE
 		},
-		manifest: `${baseUrl}/manifest.json`,
 		openGraph: {
 			type: 'website',
 			url: baseUrl,
