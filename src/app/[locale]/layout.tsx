@@ -29,6 +29,7 @@ export async function generateMetadata({ params }: MetadataProps): Promise<Metad
 		description: translate('description'),
 		keywords: [translate('keywords')],
 		category: translate('category'),
+		classification: translate('classification'),
 		verification: {
 			google: process.env.NEXT_PUBLIC_GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE
 		},
@@ -59,6 +60,34 @@ export async function generateMetadata({ params }: MetadataProps): Promise<Metad
 				height: 300
 			}
 		},
+		appleWebApp: {
+			capable: true,
+			title: translate('apple-web-app.title')
+		},
+		icons: {
+			icon: [
+				{
+					rel: 'icon',
+					url: '/assets/metadata/favicon-16x16.png',
+					sizes: '16x16',
+					type: 'image/png'
+				},
+				{
+					rel: 'icon',
+					url: '/assets/metadata/favicon-32x32.png',
+					sizes: '32x32',
+					type: 'image/png'
+				},
+				{
+					rel: 'apple-touch-icon',
+					url: '/assets/metadata/apple-touch-icon.png',
+					sizes: '180x180',
+					type: 'image/png'
+				}
+			]
+		},
+		creator: translate('creator'),
+		publisher: translate('publisher'),
 		authors: {
 			name: translate('authors.name'),
 			url: routesConfig.external.socialMedia.linkedin
