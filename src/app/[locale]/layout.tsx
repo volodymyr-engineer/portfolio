@@ -36,7 +36,7 @@ export async function generateMetadata({ params }: MetadataProps): Promise<Metad
 			type: 'website',
 			url: baseUrl,
 			countryName: translate('open-graph.country-name'),
-			locale: locale,
+			locale: 'en_US',
 			siteName: process.env.NEXT_PUBLIC_HTTP_DOMAIN,
 			title: translate('open-graph.title'),
 			description: translate('open-graph.description'),
