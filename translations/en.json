@@ -1,46 +1,41 @@
 {
-  "Header": {
-    "title": "Volodymyr Shylo",
-    "subtitle": "JavaScript Engineer",
-    "description": "I build accessible, pixel-perfect digital experiences for the web.",
-    "navigation-anchors": {
-      "label": "Internal anchors on the current page",
-      "about": {
-        "label": "About",
-        "description": "Move to block about me on this web page and learn more about me."
+  "SEO": {
+    "metadata": {
+      "title": "Volodymyr Shylo - JavaScript Engineer",
+      "application-name": "Personal website",
+      "description": "Volodymyr Shylo is a software engineer who builds first-class software solutions. His goal is developing scalable applications with a strong focus on performance, security and user experience.",
+      "keywords": "Volodymyr Shylo, software engineer, experienced software engineer, JavaScript developer, TypeScript developer, experienced JavaScript developer, Experienced TypeScript developer, web developer, full-stack developer, JavaScript, TypeScript, React, NextJS, NodeJS, ExpressJS, NestJS, MVP, personal website, custom software solutions, Ukraine",
+      "category": "Personal website and technical blog about web development and related things",
+      "classification": "Personal, Technology, Software Engineering, Programming Blog",
+      "open-graph": {
+        "country-name": "Ukraine",
+        "title": "Volodymyr Shylo",
+        "description": "Software engineer who builds first-class software solutions. My goal is developing scalable applications with a strong focus on performance, security and user experience.",
+        "image": {
+          "alt": "Experienced JavaScript & TypeScript Software Engineer who builds first-class software solutions"
+        }
       },
-      "experience": {
-        "label": "Experience",
-        "description": "Move to block experience on this web page and learn more about my professional background."
+      "twitter": {
+        "title": "Volodymyr Shylo",
+        "description": "Software engineer who builds first-class software solutions. My goal is developing scalable applications with a strong focus on performance, security and user experience.",
+        "image": {
+          "alt": "Experienced JavaScript & TypeScript Software Engineer who builds first-class software solutions"
+        }
       },
-      "services": {
-        "label": "Services",
-        "description": "Move to block services on this web page and learn more about the services I provide."
+      "apple-web-app": {
+        "title": "Volodymyr Shylo - JavaScript Engineer"
       },
-      "blog": {
-        "label": "Blog",
-        "description": "Move to my blog on this web page and learn more about my articles."
+      "creator": "Shylo Volodymyr Mykolayovych",
+      "publisher": "Shylo Volodymyr Mykolayovych",
+      "authors": {
+        "name": "Shylo Volodymyr Mykolayovych"
       }
     },
-    "socials-media": {
-      "label": "You can find me on that social media",
-      "github": {
-        "label": "GitHub",
-        "description": "Visit my GitHub profile in a new tab to see my projects and contributions."
-      },
-      "linkedin": {
-        "label": "LinkedIn",
-        "description": "Open in a new tab my LinkedIn profile and connect to my professional network."
-      },
-      "codepen": {
-        "label": "CodePen",
-        "description": "Explore my CodePen profile to see my front-end experiments and demos in a new tab."
-      }
-    }
-  },
-  "Main": {
-    "about-me": {
-      "label": "Block - about me"
+    "web-manifest": {
+      "name": "Volodymyr Shylo - JavaScript Engineer",
+      "short-name": "Volodymyr Shylo",
+      "categories": "Technology, Software Development, Personal Website",
+      "description": "Volodymyr Shylo is a software engineer who builds first-class software solutions. His goal is developing scalable applications with a strong focus on performance, security and user experience."
     }
   }
 }
