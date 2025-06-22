@@ -18,7 +18,7 @@ export const Header = () => {
 				>
 					<span>{translation('title')}</span>
 					<svg className="ml-2 h-5 w-5 rounded-[6px]" aria-hidden="true">
-						<use href="/sprite.svg#flag-ukraine" />
+						<use href="/assets/sprite.svg#flag-ukraine" />
 					</svg>
 				</Link>
 			</h1>

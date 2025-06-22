@@ -17,7 +17,7 @@ export const SocialMedia = () => {
 				>
 					<span className="sr-only">{translation('socials-media.github.label')}</span>
 					<svg className="stroke-info-content h-6 w-6 fill-current" aria-hidden="true">
-						<use href="/sprite.svg#icon-github" />
+						<use href="/assets/sprite.svg#icon-github" />
 					</svg>
 				</a>
 			</li>
@@ -32,7 +32,7 @@ export const SocialMedia = () => {
 				>
 					<span className="sr-only">{translation('socials-media.github.label')}</span>
 					<svg className="h-6 w-6" aria-hidden="true">
-						<use href="/sprite.svg#icon-linkedin" />
+						<use href="/assets/sprite.svg#icon-linkedin" />
 					</svg>
 				</a>
 			</li>
@@ -47,7 +47,7 @@ export const SocialMedia = () => {
 				>
 					<span className="sr-only">{translation('socials-media.codepen.label')}</span>
 					<svg className="h-6 w-6" aria-hidden="true">
-						<use href="/sprite.svg#icon-codepen" />
+						<use href="/assets/sprite.svg#icon-codepen" />
 					</svg>
 				</a>
 			</li>
