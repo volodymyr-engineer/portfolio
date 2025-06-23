@@ -43,7 +43,7 @@ export async function generateMetadata({ params }: MetadataProps): Promise<Metad
 			description: translate('open-graph.description'),
 			images: {
 				type: 'image/png',
-				url: `${baseUrl}/assets/metadata/open-graph.logo.png`,
+				url: `${baseUrl}/assets/metadata/open-graph.png`,
 				alt: translate('open-graph.image.alt'),
 				width: 1200,
 				height: 630
@@ -55,7 +55,7 @@ export async function generateMetadata({ params }: MetadataProps): Promise<Metad
 			site: process.env.NEXT_PUBLIC_HTTP_DOMAIN,
 			images: {
 				type: 'image/png',
-				url: `${baseUrl}/assets/metadata/twitter.logo.png`,
+				url: `${baseUrl}/assets/metadata/twitter.png`,
 				alt: translate('twitter.image.alt'),
 				width: 1500,
 				height: 500
