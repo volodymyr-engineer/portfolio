@@ -42,11 +42,11 @@ export async function generateMetadata({ params }: MetadataProps): Promise<Metad
 			title: translate('open-graph.title'),
 			description: translate('open-graph.description'),
 			images: {
-				type: 'image/jpeg',
-				url: `${baseUrl}/assets/metadata/open-graph.logo.webp`,
+				type: 'image/png',
+				url: `${baseUrl}/assets/metadata/open-graph.logo.png`,
 				alt: translate('open-graph.image.alt'),
-				width: 525,
-				height: 300
+				width: 1200,
+				height: 630
 			}
 		},
 		twitter: {
@@ -54,10 +54,11 @@ export async function generateMetadata({ params }: MetadataProps): Promise<Metad
 			description: translate('twitter.description'),
 			site: process.env.NEXT_PUBLIC_HTTP_DOMAIN,
 			images: {
-				url: `${baseUrl}/assets/metadata/twitter.logo.webp`,
+				type: 'image/png',
+				url: `${baseUrl}/assets/metadata/twitter.logo.png`,
 				alt: translate('twitter.image.alt'),
-				width: 525,
-				height: 300
+				width: 1500,
+				height: 500
 			}
 		},
 		appleWebApp: {
