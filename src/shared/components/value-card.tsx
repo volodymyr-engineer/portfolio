@@ -12,7 +12,7 @@ export const ValueCard = (props: Props) => (
 			<p className="mt-2 text-sm leading-normal">{props.description}</p>
 		</div>
 		<svg
-			className="aspect-video rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 sm:order-1 sm:col-span-2 sm:translate-y-1"
+			className="aspect-video rounded border-2 border-slate-200/10 transition group-hover:border-slate-200/30 group-hover:text-slate-200 sm:order-1 sm:col-span-2 sm:translate-y-1"
 			aria-hidden="true"
 		>
 			<use href={`/assets/sprite.svg#${props.icon}`} />
