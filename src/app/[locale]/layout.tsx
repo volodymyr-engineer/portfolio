@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google';
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
+import { SpotlightEffect } from 'src/shared/components/spotlight-effect';
 import { routing } from 'src/i18n/routing';
 import { routesConfig } from 'src/routes.config';
 import 'src/theme.config.css';
@@ -119,6 +120,7 @@ const LocaleLayout = async ({ children, params }: LocaleLayoutProps) => {
 				<body
 					className={`${inter.className} relative bg-slate-900 leading-relaxed text-slate-400 antialiased selection:bg-teal-300 selection:text-teal-900`}
 				>
+					<SpotlightEffect />
 					{children}
 				</body>
 			</NextIntlClientProvider>
