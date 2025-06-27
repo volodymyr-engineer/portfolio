@@ -37,5 +37,281 @@
       "categories": "Technology, Software Development, Personal Website",
       "description": "Volodymyr Shylo is a software engineer who builds first-class software solutions. His goal is developing scalable applications with a strong focus on performance, security and user experience."
     }
+  },
+  "Home-Page": {
+    "header": {
+      "title": "Volodymyr Shylo",
+      "subtitle": "Senior JavaScript Engineer",
+      "description": "I build first-class software solutions. My goal is developing scalable applications with a strong focus on performance, security and user experience.",
+      "navigation-anchors": {
+        "label": "Internal anchors on the current page",
+        "about": {
+          "label": "About",
+          "description": "Move to block about me on this web page and learn more about me."
+        },
+        "experience": {
+          "label": "Experience",
+          "description": "Move to block experience on this web page and learn more about my professional background."
+        },
+        "blog": {
+          "label": "Blog",
+          "description": "Move to my blog on this web page and learn more about my articles."
+        }
+      },
+      "socials-media": {
+        "label": "You can find me on that social media",
+        "github": {
+          "label": "GitHub",
+          "description": "Visit my GitHub profile in a new tab to see my projects and contributions."
+        },
+        "linkedin": {
+          "label": "LinkedIn",
+          "description": "Open in a new tab my LinkedIn profile and connect to my professional network."
+        },
+        "codepen": {
+          "label": "CodePen",
+          "description": "Explore my CodePen profile to see my front-end experiments and demos in a new tab."
+        }
+      }
+    },
+    "main": {
+      "about-me": {
+        "label": "About me",
+        "aria-label": "About me section",
+        "text-content": {
+          "first-paragraph": "I’m a developer passionate about crafting accessible, pixel-perfect user interfaces that blend thoughtful design with robust engineering. My favorite work lies at the intersection of design and development, creating experiences that not only look great but are meticulously built for performance and usability.",
+          "second-paragraph": "With a strong foundation in JavaScript and a keen eye for detail, I thrive on turning complex problems into elegant solutions. Whether it’s optimizing performance, enhancing accessibility, or ensuring cross-browser compatibility, I approach each project with a commitment to quality and user satisfaction.",
+          "third-paragraph": "I believe in the power of collaboration and continuous learning, always seeking to improve my skills and stay updated with the latest industry trends. My goal is to create digital experiences that are not only functional but also delightful to use, ensuring that every interaction is seamless and engaging.",
+          "fourth-paragraph": "When I’m not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing my knowledge through articles and tutorials. I’m excited about the future of web development and look forward to building innovative solutions that make a difference."
+        }
+      },
+      "experience": {
+        "label": "Experience",
+        "aria-label": "Work experience section",
+        "NoviSign-company": {
+          "front-end": {
+            "link": {
+              "label": "Front-end Engineer · NoviSign",
+              "aria-label": "Position of Front-end Engineer at NoviSign company. Open in a new tab the official site company."
+            },
+            "description": "In order to speed up the development and implementation of automated testing, I occasionally helped with front-end issues, although it was not my responsibility.",
+            "work-period": {
+              "label": "Jul 2023 - Dec 2023",
+              "aria-label": "From July 2023 year to December 2023 year."
+            },
+            "tags": {
+              "aria-label": "Tags of the technologies I used in the NoviSign company on the Automation Quality Assurance position",
+              "Angular": "Angular",
+              "TypeScript": "TypeScript",
+              "RxJs": "RxJs",
+              "HTML": "HTML & SCSS",
+              "i18n": "i18n"
+            }
+          },
+          "automation-qa": {
+            "link": {
+              "label": "Senior Automation QA · NoviSign",
+              "aria-label": "Position of Senior Automation QA at NoviSign company. Open in a new tab the official site company."
+            },
+            "description": "I was hired for this position to complete and obtain SOC 2 certification, one of the criteria of which was to cover the service's functionality with automated tests to guarantee the reliability and quality of the system.",
+            "work-period": {
+              "label": "Apr 2022 - Dec 2023",
+              "aria-label": "From April 2022 year to December 2023 year."
+            },
+            "tags": {
+              "aria-label": "Tags of the technologies I used in the NoviSign company on the Automation Quality Assurance position",
+              "Cypress": "Cypress",
+              "TypeScript": "TypeScript",
+              "GitHub-actions": "GitHub Actions",
+              "Jenkins": "Jenkins",
+              "Docker": "Docker"
+            }
+          }
+        },
+        "ChatbotsStudio-company": {
+          "link": {
+            "label": "Middle Back-end Engineer · Chatbots.Studio",
+            "aria-label": "Position of Middle Back-end Engineer at Chatbots.Studio company. You can open in a new tab the official site company"
+          },
+          "description": "A leading company in the field of chatbots and AI solutions, where I contributed to developing innovative chatbot applications.",
+          "work-period": {
+            "label": "July - Dec 2015",
+            "aria-label": "From July to December 2015"
+          },
+          "tags": {
+            "aria-label": "The most important tags of the technologies used in this company on the Middle Back-end Engineer position",
+            "JavaScript": "JavaScript",
+            "NodeJS": "Node.js",
+            "Telegram": "Telegram API",
+            "AWS": "AWS",
+            "MongoDB": "MongoDB"
+          }
+        },
+        "Brainence-company": {
+          "middle": {
+            "link": {
+              "label": "Middle Full Stack Engineer · Brainence",
+              "aria-label": "Position of Middle Front-end Engineer at Brainence company. Open in a new tab the official site company."
+            },
+            "description": "I was responsible for developing and maintaining web applications, ensuring high performance and responsiveness.",
+            "work-period": {
+              "label": "Jan 2016 - Jun 2017",
+              "aria-label": "From January to June 2017"
+            },
+            "tags": {
+              "aria-label": "Tags of the technologies I used in the Brainence company on the Middle Front-end Engineer position",
+              "TypeScript": "TypeScript",
+              "NodeJS": "Node.js",
+              "NestJS": "Nest.js",
+              "React": "React",
+              "NextJS": "Next.js",
+              "Docker": "Docker",
+              "PostgreSQL": "PostgreSQL",
+              "MongoDB": "MongoDB",
+              "GraphQL": "GraphQL"
+            }
+          },
+          "junior": {
+            "link": {
+              "label": "Junior Full Stack Engineer · Brainence",
+              "aria-label": "Position of Junior Front-end Engineer at Brainence company. Open in a new tab the official site company."
+            },
+            "description": "I worked on various projects, gaining valuable experience in front-end development and collaborating with cross-functional teams.",
+            "work-period": {
+              "label": "Jul 2015 - Dec 2015",
+              "aria-label": "From July to December 2015"
+            },
+            "tags": {
+              "aria-label": "Tags of the technologies I used in the Brainence company on the Junior Full Stack Engineer position",
+              "JavaScript": "JavaScript",
+              "TypeScript": "TypeScript",
+              "NodeJS": "Node.js",
+              "NestJS": "Nest.js",
+              "PostgreSQL": "PostgreSQL",
+              "React": "React",
+              "Material-UI": "Material UI",
+              "HTML": "HTML & SCSS"
+            }
+          },
+          "trainee": {
+            "link": {
+              "label": "Trainee Full Stack Engineer · Brainence",
+              "aria-label": "Position of Trainee Front-end Engineer at Brainence company. Open in a new tab the official site company."
+            },
+            "description": "My first job in the IT industry, where I started my career as a front-end developer.",
+            "work-period": {
+              "label": "Jan - Jun 2015",
+              "aria-label": "From January to June 2015"
+            },
+            "tags": {
+              "aria-label": "Tags of the technologies I used in the Brainence company on the Trainee Full Stack Engineer position",
+              "JavaScript": "JavaScript",
+              "React": "React",
+              "NodeJS": "Node.js",
+              "Express": "Express.js",
+              "MongoDB": "MongoDB"
+            }
+          }
+        },
+        "resume": {
+          "label": "View Full Resume",
+          "aria-label": "Look at my resume in PDF format in a new tab"
+        }
+      },
+      "values": {
+        "label": "Values",
+        "aria-label": "Values section",
+        "mission": {
+          "title": "Mission",
+          "description": "To create innovative and user-centric software solutions that empower individuals and businesses to achieve their goals."
+        },
+        "goal": {
+          "title": "Goal",
+          "description": "To develop scalable, high-performance applications that deliver exceptional user experiences while maintaining the highest standards of quality and security."
+        },
+        "values": {
+          "title": "Values",
+          "description": "Integrity, collaboration, continuous learning, and a commitment to excellence in every aspect of software development."
+        }
+      },
+      "blog": {
+        "label": "Blog",
+        "aria-label": "Blog section",
+        "articles-archive": {
+          "label": "Articles Archive",
+          "aria-label": "Move to the page with all my articles"
+        }
+      }
+    }
+  },
+  "Blog-Page": {
+    "back-to-home-link": {
+      "label": "Back",
+      "aria-label": "Move back to the home page"
+    },
+    "title": "All Articles",
+    "table": {
+      "columns": {
+        "date": "Publication",
+        "link": "Link",
+        "tags": "Tags"
+      }
+    }
+  },
+  "Posts": {
+    "css-modern": {
+      "link": {
+        "label": "Сучасний CSS та його нові фічі",
+        "aria-label": ""
+      },
+      "image": {
+        "alt": ""
+      }
+    },
+    "css-position": {
+      "link": {
+        "label": "Усе що потрібно знайти для усвідомленої роботи з позиціонуванням елементами на сторінці",
+        "aria-label": ""
+      },
+      "image": {
+        "alt": ""
+      }
+    },
+    "css-units-of-measurement": {
+      "link": {
+        "label": "Усі одиниці виміру в CSS та що з них краще використовувати для побудови зручного користувацького інтерфейсу",
+        "aria-label": ""
+      },
+      "image": {
+        "alt": ""
+      }
+    },
+    "html-accessibility": {
+      "link": {
+        "label": "The most common mistakes of Accessibility Pitfalls and how to avoid them",
+        "aria-label": ""
+      },
+      "image": {
+        "alt": ""
+      }
+    },
+    "html-modern": {
+      "link": {
+        "label": "Усі HTML теги та як ними користуватись для кращої оптимізації вашого сайту",
+        "aria-label": ""
+      },
+      "image": {
+        "alt": ""
+      }
+    },
+    "browser-and-internet": {
+      "link": {
+        "label": "Детальний розбір як саме опрацьовує запити браузер",
+        "aria-label": ""
+      },
+      "image": {
+        "alt": ""
+      }
+    }
   }
 }
