@@ -10,7 +10,16 @@ export const routesConfig = Object.freeze({
 						blog: 'blog'
 					}
 				},
-				resume: '/assets/pdf/resume.pdf'
+				resume: '/assets/pdf/resume.pdf',
+				blog: {
+					root: '/blog',
+					cssModern: '/blog/modern-css',
+					cssPosition: '/blog/css-position',
+					cssUnitsOfMeasurement: '/blog/css-units-of-measurement',
+					htmlAccessibility: '/blog/html-accessibility',
+					htmlModern: '/blog/html-modern',
+					browserAndInternet: '/blog/browser-and-internet'
+				}
 			}
 		},
 		backend: {}
