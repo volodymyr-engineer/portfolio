@@ -7,7 +7,7 @@ import { CssUnitsOfMeasurement } from './css-units-of-measurement';
 import { HtmlAccessibility } from './html-accessibility';
 import { HtmlModern } from './html-modern';
 
-export function usePosts() {
+export const usePosts = () => {
 	const translation = useTranslations('Posts');
 
 	return {
@@ -44,7 +44,7 @@ export function usePosts() {
 			component: CssUnitsOfMeasurement
 		},
 		'html-accessibility': {
-			slug: routesConfig.app.frontend.public.blog.htmlModern,
+			slug: routesConfig.app.frontend.public.blog.htmlAccessibility,
 			title: translation('html-accessibility.link.label'),
 			ariaLabel: translation('html-accessibility.link.aria-label'),
 			tags: ['HTML 5', 'Accessibility'],
@@ -60,4 +60,4 @@ export function usePosts() {
 			component: HtmlModern
 		}
 	};
-}
+};
