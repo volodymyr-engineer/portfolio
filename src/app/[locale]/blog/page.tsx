@@ -50,7 +50,6 @@ const ListOfArticles: NextPage = () => {
 										role="article"
 										href={post.slug}
 										aria-label={post.ariaLabel}
-										target="_blank"
 										className="group/link inline-flex items-center text-base leading-tight font-medium hover:text-teal-300 focus-visible:text-teal-300"
 									>
 										{post.title}
