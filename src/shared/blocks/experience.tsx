@@ -3,7 +3,7 @@ import { ExperienceCard as Card } from 'src/shared/components/experience-card';
 import { routesConfig } from 'src/routes.config';
 
 export const Experience = () => {
-	const translation = useTranslations('Main.experience');
+	const translation = useTranslations('Home-Page.main.experience');
 
 	return (
 		<section

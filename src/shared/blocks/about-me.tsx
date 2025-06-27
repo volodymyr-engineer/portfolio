@@ -2,7 +2,7 @@ import { useTranslations } from 'next-intl';
 import { routesConfig } from 'src/routes.config';
 
 export const AboutMe = () => {
-	const translation = useTranslations('Main.about-me');
+	const translation = useTranslations('Home-Page.main.about-me');
 
 	return (
 		<section

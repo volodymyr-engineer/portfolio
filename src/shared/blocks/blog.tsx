@@ -4,7 +4,7 @@ import { ArticleCard as Card } from 'src/shared/components/article-card';
 import { routesConfig } from 'src/routes.config';
 
 export const Blog = () => {
-	const translation = useTranslations('Main.blog');
+	const translation = useTranslations('Home-Page.main.blog');
 	const posts = useTranslations('Posts');
 	const locale = useLocale();
 

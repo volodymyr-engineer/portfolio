@@ -2,7 +2,7 @@ import { useTranslations } from 'next-intl';
 import { ValueCard } from 'src/shared/components/value-card';
 
 export const Values = () => {
-	const translation = useTranslations('Main.values');
+	const translation = useTranslations('Home-Page.main.values');
 
 	return (
 		<section id="values" aria-label={translation('aria-label')} className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">

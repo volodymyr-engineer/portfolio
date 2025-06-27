@@ -2,7 +2,7 @@ import { routesConfig } from 'src/routes.config';
 import { useTranslations } from 'next-intl';
 
 export const SocialMedia = () => {
-	const translation = useTranslations('Header');
+	const translation = useTranslations('Home-Page.header');
 
 	return (
 		<ul className="mt-8 ml-1 flex items-center" aria-label={translation('socials-media.label')}>

@@ -29,7 +29,7 @@ const dynamicUpdatingAnchorsLinkStyles = (table: Table, old: string, current: st
 };
 
 export const Anchors = () => {
-	const translation = useTranslations('Header');
+	const translation = useTranslations('Home-Page.header');
 	const linkRefs = useRef<HTMLAnchorElement[]>([]);
 	const sectionRefs = useRef<HTMLElement[]>([]);
 	const selectedIdRef = useRef<string>('');

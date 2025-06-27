@@ -3,7 +3,7 @@ import { Link } from 'src/i18n/navigation';
 import { routesConfig } from 'src/routes.config';
 
 export const Header = () => {
-	const translation = useTranslations('Header');
+	const translation = useTranslations('Home-Page.header');
 	const locale = useLocale();
 
 	return (
