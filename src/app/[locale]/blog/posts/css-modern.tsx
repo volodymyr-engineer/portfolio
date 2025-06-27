@@ -1,1 +1,7 @@
-export const CssModern = () => <h1>CSS Modern</h1>;
+import { useTranslations } from 'next-intl';
+
+export const CssModern = () => {
+	const translation = useTranslations('Posts.css-modern');
+
+	return <h1>{translation('link.label')}</h1>;
+};
