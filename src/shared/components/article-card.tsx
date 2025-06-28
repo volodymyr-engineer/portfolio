@@ -3,14 +3,14 @@ import { Link } from 'src/i18n/navigation';
 
 type Props = {
 	link: {
-		local: string;
-		href: string;
-		label: string;
-		ariaLabel: string;
+		local: Readonly<string>;
+		href: Readonly<string>;
+		label: Readonly<string>;
+		ariaLabel: Readonly<string>;
 	};
 	image: {
-		src: string;
-		alt: string;
+		src: Readonly<string>;
+		alt: Readonly<string>;
 	};
 };
 
