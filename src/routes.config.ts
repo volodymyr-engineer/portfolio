@@ -13,16 +13,12 @@ export const routesConfig = Object.freeze({
 				resume: '/assets/pdf/resume.pdf',
 				blog: {
 					root: '/blog',
-					cssModern: '/blog/modern-css',
-					cssPosition: '/blog/css-position',
-					cssUnitsOfMeasurement: '/blog/css-units-of-measurement',
-					htmlAccessibility: '/blog/html-accessibility',
-					htmlModern: '/blog/html-modern',
-					browserAndInternet: '/blog/browser-and-internet'
+					posts: {
+						internetBasicUnderstanding: '/blog/internet-basic-understanding'
+					}
 				}
 			}
-		},
-		backend: {}
+		}
 	},
 	external: {
 		socialMedia: {
@@ -34,6 +30,15 @@ export const routesConfig = Object.freeze({
 			noviSign: 'https://www.novisign.com',
 			chatbotsStudio: 'https://chatbots.studio',
 			brainence: 'https://brainence.com'
+		},
+		posts: {
+			internetBasicUnderstanding: {
+				usefulLinks: {
+					internetHistory:
+						'https://sites.google.com/view/bezpecnyj-internet/%D1%96%D1%81%D1%82%D0%BE%D1%80%D1%96%D1%8F-%D1%96%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82%D1%83',
+					howDoesInternetWork: 'How does the Internet Work?'
+				}
+			}
 		}
 	}
 });

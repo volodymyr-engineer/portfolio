@@ -5,7 +5,7 @@ import { routesConfig } from 'src/routes.config';
 
 export const Blog = () => {
 	const translation = useTranslations('Home-Page.main.blog');
-	const posts = useTranslations('Posts');
+	const posts = useTranslations('Blog-Page.posts');
 	const locale = useLocale();
 
 	return (
@@ -22,69 +22,13 @@ export const Blog = () => {
 					<Card
 						link={{
 							local: locale,
-							href: routesConfig.app.frontend.public.blog.cssPosition,
-							label: posts('css-position.link.label'),
-							ariaLabel: posts('css-position.link.aria-label')
+							href: routesConfig.app.frontend.public.blog.posts.internetBasicUnderstanding,
+							label: posts('internet-basic-understanding.link.label'),
+							ariaLabel: posts('internet-basic-understanding.link.aria-label')
 						}}
 						image={{
-							src: '/assets/blog/css-position.webp',
-							alt: posts('css-position.image.alt')
-						}}
-					/>
-				</li>
-				<li className="mb-12">
-					<Card
-						link={{
-							local: locale,
-							href: routesConfig.app.frontend.public.blog.cssUnitsOfMeasurement,
-							label: posts('css-units-of-measurement.link.label'),
-							ariaLabel: posts('css-units-of-measurement.link.aria-label')
-						}}
-						image={{
-							src: '/assets/blog/css-units-of-measurement.webp',
-							alt: posts('css-units-of-measurement.image.alt')
-						}}
-					/>
-				</li>
-				<li className="mb-12">
-					<Card
-						link={{
-							local: locale,
-							href: routesConfig.app.frontend.public.blog.browserAndInternet,
-							label: posts('browser-and-internet.link.label'),
-							ariaLabel: posts('browser-and-internet.link.aria-label')
-						}}
-						image={{
-							src: '/assets/blog/browser-and-internet.webp',
-							alt: posts('browser-and-internet.image.alt')
-						}}
-					/>
-				</li>
-				<li className="mb-12">
-					<Card
-						link={{
-							local: locale,
-							href: routesConfig.app.frontend.public.blog.cssModern,
-							label: posts('css-modern.link.label'),
-							ariaLabel: posts('css-modern.link.aria-label')
-						}}
-						image={{
-							src: '/assets/blog/css-modern.webp',
-							alt: posts('css-modern.image.alt')
-						}}
-					/>
-				</li>
-				<li className="mb-12">
-					<Card
-						link={{
-							local: locale,
-							href: routesConfig.app.frontend.public.blog.htmlModern,
-							label: posts('html-modern.link.label'),
-							ariaLabel: posts('html-modern.link.aria-label')
-						}}
-						image={{
-							src: '/assets/blog/html-modern.webp',
-							alt: posts('html-modern.image.alt')
+							src: '/assets/blog/internet-basic-understanding.webp',
+							alt: posts('internet-basic-understanding.image.alt')
 						}}
 					/>
 				</li>

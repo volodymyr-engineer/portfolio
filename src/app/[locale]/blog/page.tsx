@@ -4,8 +4,10 @@ import { routesConfig } from 'src/routes.config';
 import { Link } from 'src/i18n/navigation';
 import { usePosts } from './posts';
 
-const ListOfArticles: NextPage = () => {
-	const translation = useTranslations('Blog-Page');
+export const dynamic = 'force-static';
+
+const BlogPage: NextPage = () => {
+	const translation = useTranslations('Blog-Page.core');
 	const locale = useLocale();
 	const posts = usePosts();
 	const allPosts = Object.values(posts);
@@ -17,13 +19,13 @@ const ListOfArticles: NextPage = () => {
 					locale={locale}
 					role="link"
 					href={routesConfig.app.frontend.public.home.root}
-					aria-label={translation('back-to-home-link.aria-label')}
+					aria-label={translation('links.back-to-home.aria-label')}
 					className="group mb-2 inline-flex items-center leading-tight font-semibold text-teal-300"
 				>
 					<svg className="mr-1 h-4 w-4 rotate-180 transition-transform group-hover:-translate-x-2" aria-hidden="true">
 						<use href="/assets/sprite.svg#icon-arrow-right-standard" />
 					</svg>
-					{translation('back-to-home-link.label')}
+					{translation('links.back-to-home.label')}
 				</Link>
 			</header>
 			<main>
@@ -42,23 +44,17 @@ const ListOfArticles: NextPage = () => {
 						{allPosts.map((post, index) => (
 							<tr key={index} className="border-b border-slate-300/10 last:border-none">
 								<td className="hidden py-4 pr-4 align-top min-[480px]:table-cell">
-									<time>{post.publicationYear}</time>
+									<time>{post.publicationDate}</time>
 								</td>
 								<td className="py-4 pr-4 align-top leading-snug font-semibold text-slate-200">
 									<Link
 										locale={locale}
 										role="article"
-										href={post.slug}
-										aria-label={post.ariaLabel}
-										className="group/link inline-flex items-center text-base leading-tight font-medium hover:text-teal-300 focus-visible:text-teal-300"
+										href={post.link.slug}
+										aria-label={post.link.ariaLabel}
+										className="text-base leading-tight font-medium hover:text-teal-300 focus-visible:text-teal-300"
 									>
-										{post.title}
-										<svg
-											className="ml-1 inline-block h-4 w-4 shrink-0 translate-y-px transition-transform group-hover/link:translate-x-1 group-hover/link:-translate-y-1 group-focus-visible/link:translate-x-1 group-focus-visible/link:-translate-y-1 motion-reduce:transition-none"
-											aria-hidden="true"
-										>
-											<use href="/assets/sprite.svg#icon-arrow-right" />
-										</svg>
+										{post.link.label}
 									</Link>
 								</td>
 								<td className="py-4 pr-4 align-top">
@@ -81,4 +77,4 @@ const ListOfArticles: NextPage = () => {
 	);
 };
 
-export default ListOfArticles;
+export default BlogPage;
