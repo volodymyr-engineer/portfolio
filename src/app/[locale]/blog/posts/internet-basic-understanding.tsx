@@ -104,7 +104,7 @@ export const InternetBasicUnderstanding = () => {
 					{
 						href: routesConfig.external.posts.internetBasicUnderstanding.usefulLinks.howDoesInternetWork,
 						label: translation('useful-links.links.how-does-internet-work.label'),
-						ariaLabel: translation('useful-links.links.how-does-internet-work.aria-label'),
+						ariaLabel: translation('useful-links.links.how-does-internet-work.aria-label')
 					}
 				]}
 			/>
