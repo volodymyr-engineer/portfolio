@@ -11,12 +11,6 @@ type Props = {
 
 type PostKey = keyof ReturnType<typeof usePosts>;
 
-// const articles = [routesConfig.app.frontend.public.blog.posts.internetBasicUnderstanding];
-//
-// export const generateStaticParams = async () => {
-// 	return articles.map((slug) => ({ slug }));
-// };
-
 const Post = ({ params }: Props) => {
 	const translation = useTranslations('Blog-Page.core');
 	const locale = useLocale();
