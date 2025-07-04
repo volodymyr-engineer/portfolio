@@ -11,11 +11,11 @@ type Props = {
 
 type PostKey = keyof ReturnType<typeof usePosts>;
 
-const articles = [routesConfig.app.frontend.public.blog.posts.internetBasicUnderstanding];
-
-export const generateStaticParams = () => {
-	return articles.map((slug) => ({ slug }));
-};
+// const articles = [routesConfig.app.frontend.public.blog.posts.internetBasicUnderstanding];
+//
+// export const generateStaticParams = async () => {
+// 	return articles.map((slug) => ({ slug }));
+// };
 
 const Post = ({ params }: Props) => {
 	const translation = useTranslations('Blog-Page.core');
@@ -26,7 +26,7 @@ const Post = ({ params }: Props) => {
 
 	if (!post) return notFound();
 
-	const Post = post.component;
+	const PostComponent = post.component;
 
 	return (
 		<div className="mx-auto min-h-screen max-w-screen-lg px-6 py-12 font-sans md:px-12 md:py-16 lg:py-0">
@@ -48,7 +48,7 @@ const Post = ({ params }: Props) => {
 			<main>
 				<h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">{post.link.label}</h1>
 				<span className="mt-10 block">{post.publicationDate}</span>
-				<Post />
+				<PostComponent />
 			</main>
 		</div>
 	);
