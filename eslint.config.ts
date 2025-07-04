@@ -49,8 +49,8 @@ const eslintConfig: Linter.Config[] = [
 			]
 		}
 	},
-	...storybook.configs['flat/recommended'],
-	eslintPluginPrettierRecommended
+	...storybook.configs['flat/recommended']
+	// eslintPluginPrettierRecommended
 ];
 
 export default eslintConfig;
