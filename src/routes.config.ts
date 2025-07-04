@@ -1,5 +1,3 @@
-import { Quote } from 'src/shared/blocks/quote';
-
 export const routesConfig = Object.freeze({
 	app: {
 		frontend: {
