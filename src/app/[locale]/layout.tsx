@@ -2,6 +2,8 @@ import { NextIntlClientProvider, hasLocale } from 'next-intl';
 import { getMessages, setRequestLocale, getTranslations } from 'next-intl/server';
 import { Inter } from 'next/font/google';
 import { notFound } from 'next/navigation';
+import { Analytics } from '@vercel/analytics/next';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import type { Metadata } from 'next';
 import type { ReactNode } from 'react';
 import { SpotlightEffect } from 'src/shared/components/spotlight-effect';
@@ -122,6 +124,8 @@ const LocaleLayout = async ({ children, params }: LocaleLayoutProps) => {
 				>
 					<SpotlightEffect />
 					{children}
+					<Analytics />
+					<SpeedInsights />
 				</body>
 			</NextIntlClientProvider>
 		</html>
