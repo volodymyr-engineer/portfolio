@@ -13,7 +13,7 @@ const BlogPage: NextPage = () => {
 	const allPosts = Object.values(posts);
 
 	return (
-		<div className="mx-auto min-h-screen max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-16 lg:py-0">
+		<div className="mx-auto min-h-screen max-w-screen-lg px-6 py-12 font-sans md:px-12 md:py-16 lg:py-0">
 			<header className="lg:py-24">
 				<Link
 					locale={locale}

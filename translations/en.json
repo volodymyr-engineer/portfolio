@@ -77,12 +77,13 @@
     "main": {
       "about-me": {
         "label": "About me",
-        "aria-label": "About me section",
-        "text-content": {
-          "first-paragraph": "I’m a developer passionate about crafting accessible, pixel-perfect user interfaces that blend thoughtful design with robust engineering. My favorite work lies at the intersection of design and development, creating experiences that not only look great but are meticulously built for performance and usability.",
-          "second-paragraph": "With a strong foundation in JavaScript and a keen eye for detail, I thrive on turning complex problems into elegant solutions. Whether it’s optimizing performance, enhancing accessibility, or ensuring cross-browser compatibility, I approach each project with a commitment to quality and user satisfaction.",
-          "third-paragraph": "I believe in the power of collaboration and continuous learning, always seeking to improve my skills and stay updated with the latest industry trends. My goal is to create digital experiences that are not only functional but also delightful to use, ensuring that every interaction is seamless and engaging.",
-          "fourth-paragraph": "When I’m not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing my knowledge through articles and tutorials. I’m excited about the future of web development and look forward to building innovative solutions that make a difference."
+        "aria-label": "Section - about me",
+        "text": {
+          "intro": "I’m a Software Engineer who loves building clean, user-friendly interfaces that combine great design with solid code. I really enjoy working where design meets development — creating things that not only look nice but are fast, secure, and easy to use.",
+          "right-now": "Right now, I’m on the lookout for new opportunities in Front-end development or Automated testing. I’d love to join a team that’s building its own product and cares about delivering reliable, helpful solutions to users.",
+          "experience": "Over the years, I’ve had the chance to work in different environments — startups, freelance projects, outsourcing companies, chatbot platforms, and large digital firms. Each experience helped me grow and understand how to create better software.",
+          "sport": "Outside of work, I enjoy yoga and calisthenics — they keep me active and motivated. I truly believe in the saying “a healthy body means a healthy mind.”",
+          "end": "I’m also into learning new hands-on skills. Lately, I’ve been diving into robotics and programming in C/C++. I’ve got a few ideas I’m excited to bring to life. When I need to recharge, I love hiking in the mountains, walking in the forest, or just spending quality time with animals and people I care about."
         }
       },
       "experience": {
@@ -94,18 +95,19 @@
               "label": "Front-end Engineer · NoviSign",
               "aria-label": "Position of Front-end Engineer at NoviSign company. Open in a new tab the official site company."
             },
-            "description": "In order to speed up the development and implementation of automated testing, I occasionally helped with front-end issues, although it was not my responsibility.",
+            "description": "Maintain critical components, across the whole product to speed up the development of automated testing. Work closely with cross-functional teams to implement and advocate for best practices in quality assurance and web accessibility.",
             "work-period": {
-              "label": "Jul 2023 - Dec 2023",
-              "aria-label": "From July 2023 year to December 2023 year."
+              "label": "Jul 2023 - Dec 2024",
+              "aria-label": "From July to December 2024 year."
             },
             "tags": {
-              "aria-label": "Tags of the technologies I used in the NoviSign company on the Automation Quality Assurance position",
+              "aria-label": "Tags of the technologies I used in the NoviSign company on the Front-end Engineer position",
               "Angular": "Angular",
               "TypeScript": "TypeScript",
               "RxJs": "RxJs",
               "HTML": "HTML & SCSS",
-              "i18n": "i18n"
+              "i18n": "i18n",
+              "Jira": "Jira"
             }
           },
           "automation-qa": {
@@ -113,10 +115,10 @@
               "label": "Senior Automation QA · NoviSign",
               "aria-label": "Position of Senior Automation QA at NoviSign company. Open in a new tab the official site company."
             },
-            "description": "I was hired for this position to complete and obtain SOC 2 certification, one of the criteria of which was to cover the service's functionality with automated tests to guarantee the reliability and quality of the system.",
+            "description": "My task was to build an automated testing system from scratch, as the company was rapidly expanding into new markets and preparing for numerous certifications. I designed a scalable QA infrastructure, selected appropriate testing tools, and set up CI/CD pipelines for automatic test execution across various environments. I developed the first automated tests that covered key business processes while formalizing testing standards. I also wrote documentation that helped new team members quickly get up to speed with the approaches and tools. Thanks to this, we started detecting defects early and reduced the risk of regressions by nearly a third. In parallel, I closely collaborated with developers, DevOps engineers, and product managers to make quality assurance an integral part of the release lifecycle.",
             "work-period": {
-              "label": "Apr 2022 - Dec 2023",
-              "aria-label": "From April 2022 year to December 2023 year."
+              "label": "Apr 2022 - Dec 2024",
+              "aria-label": "From April 2022 year to December 2024 year."
             },
             "tags": {
               "aria-label": "Tags of the technologies I used in the NoviSign company on the Automation Quality Assurance position",
@@ -124,7 +126,8 @@
               "TypeScript": "TypeScript",
               "GitHub-actions": "GitHub Actions",
               "Jenkins": "Jenkins",
-              "Docker": "Docker"
+              "Docker": "Docker",
+              "Jira": "Jira"
             }
           }
         },
@@ -133,10 +136,10 @@
             "label": "Middle Back-end Engineer · Chatbots.Studio",
             "aria-label": "Position of Middle Back-end Engineer at Chatbots.Studio company. You can open in a new tab the official site company"
           },
-          "description": "A leading company in the field of chatbots and AI solutions, where I contributed to developing innovative chatbot applications.",
+          "description": "I developed an innovative Telegram bot similar to an online store, with all the necessary functionality, including: user authentication, search, shopping cart, and more. I designed the system architecture and coordinated the team’s activities. At the same time, I worked on developing and optimizing the database, implemented business logic in code, created user flows, and integrated with the Telegram API.",
           "work-period": {
-            "label": "July - Dec 2015",
-            "aria-label": "From July to December 2015"
+            "label": "Feb - May 2021",
+            "aria-label": "From February to May 2021"
           },
           "tags": {
             "aria-label": "The most important tags of the technologies used in this company on the Middle Back-end Engineer position",
@@ -151,15 +154,15 @@
           "middle": {
             "link": {
               "label": "Middle Full Stack Engineer · Brainence",
-              "aria-label": "Position of Middle Front-end Engineer at Brainence company. Open in a new tab the official site company."
+              "aria-label": "Position of Middle Full Stack Engineer at Brainence company. Open in a new tab the official site company."
             },
-            "description": "I was responsible for developing and maintaining web applications, ensuring high performance and responsiveness.",
+            "description": "I was responsible for the full implementation of individual modules of the web application — from requirements analysis to deployment and maintenance. I took part in designing the architecture, optimized the interaction between the frontend and backend, and improved system performance and stability. I actively collaborated with designers, testers, and product managers, proposed technical solutions, and also mentored junior developers. In addition, I regularly worked on refactoring, conducted code reviews, and maintained code in long-term projects.",
             "work-period": {
-              "label": "Jan 2016 - Jun 2017",
-              "aria-label": "From January to June 2017"
+              "label": "Oct 2020 - Feb 2022",
+              "aria-label": "From October 2020 year to February 2022"
             },
             "tags": {
-              "aria-label": "Tags of the technologies I used in the Brainence company on the Middle Front-end Engineer position",
+              "aria-label": "Tags of the technologies I used in the Brainence company on the Middle Full Stack Engineer position",
               "TypeScript": "TypeScript",
               "NodeJS": "Node.js",
               "NestJS": "Nest.js",
@@ -174,12 +177,12 @@
           "junior": {
             "link": {
               "label": "Junior Full Stack Engineer · Brainence",
-              "aria-label": "Position of Junior Front-end Engineer at Brainence company. Open in a new tab the official site company."
+              "aria-label": "Position of Junior Full Stack Engineer at Brainence company. Open in a new tab the official site company."
             },
-            "description": "I worked on various projects, gaining valuable experience in front-end development and collaborating with cross-functional teams.",
+            "description": "I worked on creating web applications and was involved in both client-side and server-side development. My responsibilities included implementing business logic, handling requests, working with data, and building a user-friendly and functional interface. I participated in teamwork: completed tasks based on technical requirements, went through code reviews, improved the code based on feedback, and took part in regular discussions aimed at enhancing project architecture.",
             "work-period": {
-              "label": "Jul 2015 - Dec 2015",
-              "aria-label": "From July to December 2015"
+              "label": "Jan - Sep 2020",
+              "aria-label": "From January to September 2020"
             },
             "tags": {
               "aria-label": "Tags of the technologies I used in the Brainence company on the Junior Full Stack Engineer position",
@@ -196,12 +199,12 @@
           "trainee": {
             "link": {
               "label": "Trainee Full Stack Engineer · Brainence",
-              "aria-label": "Position of Trainee Front-end Engineer at Brainence company. Open in a new tab the official site company."
+              "aria-label": "Position of Trainee Full Stack Engineer at Brainence company. Open in a new tab the official site company."
             },
-            "description": "My first job in the IT industry, where I started my career as a front-end developer.",
+            "description": "I participated in the full-cycle development of web applications — from creating the user interface to implementing server-side logic and working with the database. I worked on building the application structure, setting up interaction between the client and server sides, implementing authorization, data processing, and form handling. I actively collaborated with the team, used version control systems, and took part in discussions of technical solutions.",
             "work-period": {
-              "label": "Jan - Jun 2015",
-              "aria-label": "From January to June 2015"
+              "label": "Oct 2019 - Jan 2020",
+              "aria-label": "From October 2019 to January 2020"
             },
             "tags": {
               "aria-label": "Tags of the technologies I used in the Brainence company on the Trainee Full Stack Engineer position",
@@ -239,7 +242,25 @@
         "aria-label": "Blog section",
         "articles-archive": {
           "label": "Articles Archive",
-          "aria-label": "Move to the page with all my articles"
+          "aria-label": "Move to the blog page and explore all my articles"
+        }
+      },
+      "quote": {
+        "aria-label": "",
+        "text": {
+          "normal-1": "Any fool can write ",
+          "bold-1": "code",
+          "normal-2": " that a computer can understand. ",
+          "bold-2": "Good",
+          "normal-3": " programmers write code that ",
+          "bold-3": "humans",
+          "normal-4": " can ",
+          "bold-4": "understand",
+          "normal-5": "."
+        },
+        "author": {
+          "label": "Martin Fowler",
+          "aria-label": "Open in a new tab the official website of Martin Fowler"
         }
       }
     }
@@ -270,10 +291,10 @@
       "internet-basic-understanding": {
         "link": {
           "label": "Understand how the Internet working",
-          "aria-label": ""
+          "aria-label": "Article about how the Internet works"
         },
         "image": {
-          "alt": ""
+          "alt": "Image which explains how the Internet works"
         },
         "publication-date": "23 June 2025"
       }

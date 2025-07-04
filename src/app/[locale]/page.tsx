@@ -7,6 +7,7 @@ import { Experience } from 'src/shared/blocks/experience';
 import { Values } from 'src/shared/blocks/values';
 import { Blog } from 'src/shared/blocks/blog';
 import { PortalAnimation } from 'src/shared/components/portal-animation';
+import { Quote } from 'src/shared/blocks/quote';
 
 export const dynamic = 'force-static';
 
@@ -26,6 +27,7 @@ const HomePage: NextPage = () => (
 				<Values />
 				<Blog />
 				<PortalAnimation />
+				<Quote />
 			</main>
 		</div>
 	</div>

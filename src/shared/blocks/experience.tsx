@@ -34,7 +34,8 @@ export const Experience = () => {
 								translation('NoviSign-company.front-end.tags.TypeScript'),
 								translation('NoviSign-company.front-end.tags.RxJs'),
 								translation('NoviSign-company.front-end.tags.HTML'),
-								translation('NoviSign-company.front-end.tags.i18n')
+								translation('NoviSign-company.front-end.tags.i18n'),
+								translation('NoviSign-company.front-end.tags.Jira')
 							]
 						}}
 					/>
@@ -58,31 +59,8 @@ export const Experience = () => {
 								translation('NoviSign-company.automation-qa.tags.TypeScript'),
 								translation('NoviSign-company.automation-qa.tags.GitHub-actions'),
 								translation('NoviSign-company.automation-qa.tags.Jenkins'),
+								translation('NoviSign-company.automation-qa.tags.Jira'),
 								translation('NoviSign-company.automation-qa.tags.Docker')
-							]
-						}}
-					/>
-				</li>
-				<li className="mb-12">
-					<Card
-						workPeriod={{
-							label: translation('ChatbotsStudio-company.work-period.label'),
-							ariaLabel: translation('ChatbotsStudio-company.work-period.aria-label')
-						}}
-						link={{
-							href: routesConfig.external.companies.chatbotsStudio,
-							label: translation('ChatbotsStudio-company.link.label'),
-							ariaLabel: translation('ChatbotsStudio-company.link.aria-label')
-						}}
-						description={translation('ChatbotsStudio-company.description')}
-						technologies={{
-							ariaLabel: translation('ChatbotsStudio-company.tags.aria-label'),
-							tags: [
-								translation('ChatbotsStudio-company.tags.JavaScript'),
-								translation('ChatbotsStudio-company.tags.NodeJS'),
-								translation('ChatbotsStudio-company.tags.Telegram'),
-								translation('ChatbotsStudio-company.tags.AWS'),
-								translation('ChatbotsStudio-company.tags.MongoDB')
 							]
 						}}
 					/>
@@ -111,6 +89,30 @@ export const Experience = () => {
 								translation('Brainence-company.middle.tags.MongoDB'),
 								translation('Brainence-company.middle.tags.PostgreSQL'),
 								translation('Brainence-company.middle.tags.Docker')
+							]
+						}}
+					/>
+				</li>
+				<li className="mb-12">
+					<Card
+						workPeriod={{
+							label: translation('ChatbotsStudio-company.work-period.label'),
+							ariaLabel: translation('ChatbotsStudio-company.work-period.aria-label')
+						}}
+						link={{
+							href: routesConfig.external.companies.chatbotsStudio,
+							label: translation('ChatbotsStudio-company.link.label'),
+							ariaLabel: translation('ChatbotsStudio-company.link.aria-label')
+						}}
+						description={translation('ChatbotsStudio-company.description')}
+						technologies={{
+							ariaLabel: translation('ChatbotsStudio-company.tags.aria-label'),
+							tags: [
+								translation('ChatbotsStudio-company.tags.JavaScript'),
+								translation('ChatbotsStudio-company.tags.NodeJS'),
+								translation('ChatbotsStudio-company.tags.Telegram'),
+								translation('ChatbotsStudio-company.tags.AWS'),
+								translation('ChatbotsStudio-company.tags.MongoDB')
 							]
 						}}
 					/>

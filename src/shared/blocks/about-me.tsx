@@ -14,10 +14,11 @@ export const AboutMe = () => {
 				<h3 className="text-sm font-bold tracking-widest text-slate-200 uppercase lg:sr-only">{translation('label')}</h3>
 			</div>
 			<div>
-				<p className="mb-4">{translation('text-content.first-paragraph')}</p>
-				<p className="mb-4">{translation('text-content.second-paragraph')}</p>
-				<p className="mb-4">{translation('text-content.third-paragraph')}</p>
-				<p>{translation('text-content.fourth-paragraph')}</p>
+				<p className="mb-4">{translation('text.intro')}</p>
+				<p className="mb-4">{translation('text.right-now')}</p>
+				<p className="mb-4">{translation('text.experience')}</p>
+				<p className="mb-4">{translation('text.sport')}</p>
+				<p>{translation('text.end')}</p>
 			</div>
 		</section>
 	);

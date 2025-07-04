@@ -1,3 +1,5 @@
+import { Quote } from 'src/shared/blocks/quote';
+
 export const routesConfig = Object.freeze({
 	app: {
 		frontend: {
@@ -30,6 +32,9 @@ export const routesConfig = Object.freeze({
 			noviSign: 'https://www.novisign.com',
 			chatbotsStudio: 'https://chatbots.studio',
 			brainence: 'https://brainence.com'
+		},
+		quote: {
+			martinFowler: 'https://www.martinfowler.com/'
 		},
 		posts: {
 			internetBasicUnderstanding: {
