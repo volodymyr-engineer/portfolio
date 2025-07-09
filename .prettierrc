@@ -16,16 +16,10 @@
         "*.{ts,tsx}"
       ],
       "options": {
-        "printWidth": 140
-      }
-    },
-    {
-      "files": [
-        "*.css"
-      ],
-      "options": {
-        "useTabs": false,
-        "singleQuote": false
+        "printWidth": 140,
+        "error": {
+          "endOfLine": "auto"
+        }
       }
     }
   ]
