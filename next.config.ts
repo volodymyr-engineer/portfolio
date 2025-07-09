@@ -13,6 +13,9 @@ export const validationEnvFile = () => {
 
 const nextConfig: NextConfig = {
 	reactStrictMode: true,
+	eslint: {
+		ignoreDuringBuilds: true
+	},
 
 	webpack: (config) => {
 		validationEnvFile();

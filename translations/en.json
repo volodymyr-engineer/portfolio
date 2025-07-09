@@ -300,6 +300,17 @@
       }
     }
   },
+  "Not-Found-Page": {
+    "title": "404 error",
+    "description": "page not found",
+    "link": {
+      "label": "Return to the home page",
+      "aria-label": "Return to the home page"
+    },
+    "image": {
+      "alt": "Visualization 404 Errors"
+    }
+  },
   "Post:internet-basic-understanding": {
     "title": "Understand how the Internet working",
     "publication-date": "2020-04-01",

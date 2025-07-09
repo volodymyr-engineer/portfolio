@@ -19,12 +19,15 @@ export const PostUsefulLinks = (props: Props) => (
 						target="_blank"
 						rel="noreferrer noopener"
 						aria-label={link.ariaLabel}
-						className="group flex items-center py-3"
+						className="group/link mt-3 mr-8 inline-flex items-baseline text-slate-500 hover:text-teal-300 focus-visible:text-teal-300"
 					>
-						<span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-12 group-hover:bg-teal-300 group-focus-visible:w-12 group-focus-visible:bg-teal-300 motion-reduce:transition-none" />
-						<span className="nav-text text-xs font-bold tracking-widest text-slate-500 uppercase group-hover:text-teal-300 group-focus-visible:text-teal-300">
-							{link.label}
-						</span>
+						{link.label}
+						<svg
+							className="ml-1 inline-block h-3 w-3 shrink-0 translate-y-px transition-transform group-hover/link:translate-x-1 group-hover/link:-translate-y-1 group-focus-visible/link:translate-x-1 group-focus-visible/link:-translate-y-1 motion-reduce:transition-none"
+							aria-hidden="true"
+						>
+							<use href="/assets/sprite.svg#icon-arrow-right" />
+						</svg>
 					</a>
 				</li>
 			))}

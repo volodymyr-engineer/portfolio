@@ -26,8 +26,8 @@ const HomePage: NextPage = () => (
 				<Experience />
 				<Values />
 				<Blog />
-				<PortalAnimation />
 				<Quote />
+				<PortalAnimation />
 			</main>
 		</div>
 	</div>

@@ -36,7 +36,7 @@ export const SpotlightEffect = () => {
 	}, []);
 
 	return (
-		<div
+		<section
 			ref={spotlightRef}
 			className="pointer-events-none fixed inset-0 z-0 hidden mix-blend-lighten transition duration-300 ease-out lg:absolute lg:block"
 		/>

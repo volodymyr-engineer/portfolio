@@ -28,7 +28,7 @@ export const ArticleCard = (props: Props) => (
 			className="z-10 col-span-2 aspect-video rounded border-2 border-slate-200/10 object-cover transition group-hover:border-slate-200/30 sm:col-span-2"
 		/>
 		<div className="z-10 col-span-6 my-auto">
-			<h5 className="-mt-1">
+			<h4 className="-mt-1">
 				<Link
 					locale={props.link.local}
 					role="link"
@@ -49,7 +49,7 @@ export const ArticleCard = (props: Props) => (
 						</span>
 					</span>
 				</Link>
-			</h5>
+			</h4>
 		</div>
 	</div>
 );

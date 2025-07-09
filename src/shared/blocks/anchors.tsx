@@ -76,7 +76,6 @@ export const Anchors = () => {
 							if (element) linkRefs.current.push(element);
 						}}
 						href={`#${routesConfig.app.frontend.public.home.anchors.about}`}
-						role="navigation"
 						aria-label={translation('navigation-anchors.about.description')}
 						className="group flex items-center py-3"
 					>
@@ -92,7 +91,6 @@ export const Anchors = () => {
 							if (element) linkRefs.current.push(element);
 						}}
 						href={`#${routesConfig.app.frontend.public.home.anchors.experience}`}
-						role="navigation"
 						aria-label={translation('navigation-anchors.experience.description')}
 						className="group flex items-center py-3"
 					>
@@ -108,7 +106,6 @@ export const Anchors = () => {
 							if (element) linkRefs.current.push(element);
 						}}
 						href={`#${routesConfig.app.frontend.public.home.anchors.blog}`}
-						role="navigation"
 						aria-label={translation('navigation-anchors.blog.description')}
 						className="group flex items-center py-3"
 					>
