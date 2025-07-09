@@ -5,7 +5,7 @@ import { routesConfig } from 'src/routes.config';
 
 export const Blog = () => {
 	const translation = useTranslations('Home-Page.main.blog');
-	const posts = useTranslations('Blog-Page.posts');
+	const internetPost = useTranslations('Post:internet-basic-understanding');
 	const locale = useLocale();
 
 	return (
@@ -23,12 +23,12 @@ export const Blog = () => {
 						link={{
 							local: locale,
 							href: routesConfig.app.frontend.public.blog.posts.internetBasicUnderstanding,
-							label: posts('internet-basic-understanding.link.label'),
-							ariaLabel: posts('internet-basic-understanding.link.aria-label')
+							label: internetPost('prev-mode.link.label'),
+							ariaLabel: internetPost('prev-mode.link.aria-label')
 						}}
 						image={{
 							src: '/assets/blog/internet-basic-understanding.webp',
-							alt: posts('internet-basic-understanding.image.alt')
+							alt: internetPost('prev-mode.image.alt')
 						}}
 					/>
 				</li>

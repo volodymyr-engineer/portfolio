@@ -1,7 +1,6 @@
 import { FlatCompat } from '@eslint/eslintrc';
 import jsxA11yPlugin from 'eslint-plugin-jsx-a11y';
 import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
-import storybook from 'eslint-plugin-storybook';
 import type { Linter } from 'eslint';
 
 const compat = new FlatCompat({
@@ -49,7 +48,6 @@ const eslintConfig: Linter.Config[] = [
 			]
 		}
 	},
-	...storybook.configs['flat/recommended'],
 	eslintPluginPrettierRecommended,
 	{
 		files: ['**/*.ts', '**/*.tsx'],

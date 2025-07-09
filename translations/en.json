@@ -38,6 +38,17 @@
       "description": "Volodymyr Shylo is a software engineer who builds first-class software solutions. His goal is developing scalable applications with a strong focus on performance, security and user experience."
     }
   },
+  "Not-Found-Page": {
+    "title": "404 error",
+    "description": "page not found",
+    "link": {
+      "label": "Return to the home page",
+      "aria-label": "Return to the home page"
+    },
+    "image": {
+      "alt": "Visualization 404 Errors"
+    }
+  },
   "Home-Page": {
     "header": {
       "title": "Volodymyr Shylo",
@@ -287,33 +298,21 @@
         "share": {
           "label": "Share"
         }
-      },
-      "internet-basic-understanding": {
-        "link": {
-          "label": "Understand how the Internet working",
-          "aria-label": "Article about how the Internet works"
-        },
-        "image": {
-          "alt": "Image which explains how the Internet works"
-        },
-        "publication-date": "23 June 2025"
       }
     }
   },
-  "Not-Found-Page": {
-    "title": "404 error",
-    "description": "page not found",
-    "link": {
-      "label": "Return to the home page",
-      "aria-label": "Return to the home page"
-    },
-    "image": {
-      "alt": "Visualization 404 Errors"
-    }
-  },
   "Post:internet-basic-understanding": {
+    "prev-mode": {
+      "link": {
+        "label": "Understand how the Internet working",
+        "aria-label": "Article about how the Internet works"
+      },
+      "image": {
+        "alt": "Image which explains how the Internet works"
+      }
+    },
     "title": "Understand how the Internet working",
-    "publication-date": "2020-04-01",
+    "publication-date": "23 June 2025",
     "intro": "У сучасному світі - інтернет став невідʼємною його частиною та став критично важливою його частиною, котра використовується у всіх сферах та аспектах нашого життя, а саме: розваги, бізнес, медицина, освіта, державне управління, військовий сектор, банківський та інших. Головна його перевага - це доступ до інформації, котрий незалежить від фізичного місця перебування людини, саме тому він став настільки популярним і саме через це вважливо мати бодай загальне розуміння як працює інтернет аби уникнути помилок та шахрайств, а тим паче якщо хтось хоче будувати кар'єру в галузі Інформаційний Технологій.",
     "table-of-contents": {
       "label": "Contents",
