@@ -1,26 +1,18 @@
+import type { ReactNode } from 'react';
+import { routesConfig } from 'src/routes.config';
 import { useLocale, useTranslations } from 'next-intl';
-import { notFound } from 'next/navigation';
 import { PostShare } from 'src/shared/components/post-share';
 import { Link } from 'src/i18n/navigation';
-import { routesConfig } from 'src/routes.config';
-import { usePosts } from '../posts';
 
 type Props = {
-	params: { slug: string };
+	title: Readonly<string>;
+	publicationDate: Readonly<string>;
+	content: Readonly<ReactNode>;
 };
 
-type PostKey = keyof ReturnType<typeof usePosts>;
-
-const Post = ({ params }: Props) => {
+export const PostContainer = (props: Props) => {
 	const translation = useTranslations('Blog-Page.core');
 	const locale = useLocale();
-	const slug = params.slug as PostKey;
-	const posts = usePosts();
-	const post = posts[slug];
-
-	if (!post) return notFound();
-
-	const PostComponent = post.component;
 
 	return (
 		<div className="mx-auto min-h-screen max-w-screen-lg px-6 py-12 font-sans md:px-12 md:py-16 lg:py-0">
@@ -40,12 +32,10 @@ const Post = ({ params }: Props) => {
 				<PostShare />
 			</header>
 			<main>
-				<h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">{post.link.label}</h1>
-				<span className="mt-10 block">{post.publicationDate}</span>
-				<PostComponent />
+				<h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">{props.title}</h1>
+				<span className="mt-10 block">{props.publicationDate}</span>
+				{props.content}
 			</main>
 		</div>
 	);
 };
-
-export default Post;

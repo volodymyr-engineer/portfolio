@@ -2,7 +2,8 @@ import { useTranslations, useLocale } from 'next-intl';
 import type { NextPage } from 'next';
 import { routesConfig } from 'src/routes.config';
 import { Link } from 'src/i18n/navigation';
-import { usePosts } from './posts';
+import { PortalAnimation } from 'src/shared/components/portal-animation';
+import { usePosts } from './index';
 
 export const dynamic = 'force-static';
 
@@ -50,7 +51,7 @@ const BlogPage: NextPage = () => {
 									<Link
 										locale={locale}
 										role="article"
-										href={post.link.slug}
+										href={post.link.url}
 										aria-label={post.link.ariaLabel}
 										className="text-base leading-tight font-medium hover:text-teal-300 focus-visible:text-teal-300"
 									>
@@ -73,6 +74,7 @@ const BlogPage: NextPage = () => {
 					</tbody>
 				</table>
 			</main>
+			<PortalAnimation />
 		</div>
 	);
 };
