@@ -1,5 +1,6 @@
 import { FlatCompat } from '@eslint/eslintrc';
 import jsxA11yPlugin from 'eslint-plugin-jsx-a11y';
+import eslintPluginPrettier from 'eslint-plugin-prettier';
 import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
 import storybook from 'eslint-plugin-storybook';
 import type { Linter } from 'eslint';
@@ -50,7 +51,13 @@ const eslintConfig: Linter.Config[] = [
 		}
 	},
 	...storybook.configs['flat/recommended'],
-	eslintPluginPrettierRecommended
+	eslintPluginPrettierRecommended,
+	{
+		files: ['**/*.tsx'],
+		rules: {
+			'prettier/prettier': ['error', { endOfLine: 'auto' }]
+		}
+	}
 ];
 
 export default eslintConfig;

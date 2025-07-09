@@ -16,10 +16,7 @@
         "*.{ts,tsx}"
       ],
       "options": {
-        "printWidth": 140,
-        "error": {
-          "endOfLine": "auto"
-        }
+        "printWidth": 140
       }
     }
   ]
