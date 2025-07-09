@@ -296,7 +296,10 @@
     "posts": {
       "components": {
         "share": {
-          "label": "Share"
+          "label": "Share",
+          "drop-down": {
+            "copy-link": "copy link"
+          }
         }
       }
     }
