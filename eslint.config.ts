@@ -52,7 +52,7 @@ const eslintConfig: Linter.Config[] = [
 	...storybook.configs['flat/recommended'],
 	eslintPluginPrettierRecommended,
 	{
-		files: ['**/*.tsx'],
+		files: ['**/*.ts', '**/*.tsx'],
 		rules: {
 			'prettier/prettier': ['error', { endOfLine: 'auto' }]
 		}
