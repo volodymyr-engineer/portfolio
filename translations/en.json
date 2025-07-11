@@ -316,71 +316,68 @@
     },
     "title": "Understand how the Internet working",
     "publication-date": "23 June 2025",
-    "intro": "У сучасному світі - інтернет став невідʼємною його частиною та став критично важливою його частиною, котра використовується у всіх сферах та аспектах нашого життя, а саме: розваги, бізнес, медицина, освіта, державне управління, військовий сектор, банківський та інших. Головна його перевага - це доступ до інформації, котрий незалежить від фізичного місця перебування людини, саме тому він став настільки популярним і саме через це вважливо мати бодай загальне розуміння як працює інтернет аби уникнути помилок та шахрайств, а тим паче якщо хтось хоче будувати кар'єру в галузі Інформаційний Технологій.",
+    "intro": "in the modern world, the internet has become an integral and critically important part of it, used in all areas and aspects of our lives, namely: entertainment, business, medicine, education, government administration, the military sector, banking, and others. Its main advantage is access to information, which is independent of a person's physical location. That is why it has become so popular and why it is important to have at least a general understanding of how the internet works — to avoid mistakes and fraud, especially for those who want to build a career in the field of Information Technology.",
     "table-of-contents": {
       "label": "Contents",
       "excursion-into-history": {
         "label": "Excursion into history",
-        "aria-label": ""
+        "aria-label": "Move to excursion into history section on this article"
       },
       "acquaintance": {
         "label": "Acquaintance",
-        "aria-label": ""
+        "aria-label": "Move to acquaintance section on this article"
       },
       "working-principle": {
         "label": "General principle of work",
-        "aria-label": ""
+        "aria-label": "Move to general principle of work section on this article"
       },
       "internet-protocols": {
         "label": "Internet protocols",
-        "aria-label": ""
+        "aria-label": "Move to internet protocols section on this article"
       },
       "summary": {
         "label": "Summary",
-        "aria-label": ""
+        "aria-label": "Move to summary section on this article"
       },
       "useful-links": {
         "label": "Useful links",
-        "aria-label": ""
+        "aria-label": "Move to useful links section on this article"
       }
     },
     "excursion-into-history": {
       "title": "Excursion into history",
       "text": {
-        "first-part": "У 1961 p. Defence Advanced Research Agency (DARPA) за завданням міністерства оборони США взялося за проект створення експериментальної мережі передачі данних, головним завданням якої було:",
-        "goal": "забезпечити надійний, децентралізованим зв'язок між військовими, урядовими та науковими установами — навіть у разі ядерного удару.",
-        "second-part": "Експеримент із ARPANET був настільки успішним, що багато організацій захотіли ввійти до неї з метою використання для щоденної передачі даних. У 1975 p. ARPANET перетворилася з експериментальної мережі на робочу мережу. Відповідальність за адміністрування мережі взяло на себе DefenceCommunication Agency (DCA), яке сьогодні називається Defence Information Systems Agency (DISA). Але розвиток ARPANET на цьому не припинився",
-        "world-wide-web": "Наступним вагомим етапом розвитку був так званний World Wide Web, заснованої на протоколі передачі даних HTTP користувача і на особливому форматі представлення даних — HTML. Оскільки до цього моменту часу, Інтернет залишався здебільшого справою фахівців для обміну технічної документації та повідомленями, здебільшого за допомогою електрої пошти.",
-        "web-2": "І останнім завершиним етапом у розвитку можна вважати так званний WEB 2.0 - суть якого полягала у стрімкому розвитку мобільних технологій, що за собою призводило до кардинального збільшення масивів данних, включаючи фото та відео  а також миттєвий обмін ними, постійне використання Мережі для пошуку інформації — ознаменували нову еру Інтернету. Глобальна мережа тісно переплітається з супутниковим зв’язком, різними системами визначення місцезнаходження. Крім того, низьке енергоспоживання смартфонів, ноутбуків та інших мобільних пристроїв ще більше знизило перешкоду використання Інтернету завжди й скрізь."
+        "first-part": "In 1961, the Defense Advanced Research Projects Agency (DARPA), under the direction of the U.S. Department of Defense, embarked on a project to create an experimental data transmission network. The main objective of this network was:",
+        "goal": "• provide reliable, decentralized communication between military, governmental and scientific institutions — even in the event of a nuclear strike.",
+        "second-part": "The experiment with ARPANET was so successful that many organizations wanted to join it for everyday data transmission purposes. In 1975, ARPANET transitioned from an experimental network to an operational one. The responsibility for managing the network was taken over by the Defence Communication Agency (DCA), which is now known as the Defence Information Systems Agency (DISA). However, the development of ARPANET did not stop there.",
+        "world-wide-web": "The next significant stage in development was the emergence of the World Wide Web, based on the HTTP data transfer protocol and a special format for presenting data — HTML. Until that point, the Internet had mostly been used by specialists for exchanging technical documentation and messages, primarily via email.",
+        "web-2": "And the final stage in development can be considered the so-called Web 2.0 — characterized by the rapid advancement of mobile technologies. This led to a dramatic increase in data volumes, including photos and videos, as well as instant sharing of such content. The constant use of the Internet for information search marked a new era of the web. The global network became closely intertwined with satellite communications and various location-determining systems. Moreover, the low power consumption of smartphones, laptops, and other mobile devices further reduced barriers to using the Internet anytime and anywhere."
       }
     },
     "acquaintance": {
       "title": "Acquaintance",
-      "text": {
-        "first-part": "Для початку давайте дамо визначення, що таке Інтернет",
-        "definition": "Інтернет — це глобальна система взаємопов’язаних комп’ютерних мереж, яка дозволяє обмінюватися інформацією в реальному часі по всьому світу. Його ще називають мережею мереж, оскільки він об’єднує мільйони локальних, корпоративних, академічних і державних мереж через стандартизовані протоколи зв’язку, зокрема TCP/IP."
-      },
+      "definition": "The Internet is a global system of interconnected computer networks that enables real-time information exchange worldwide. It is also called a network of networks because it connects millions of local, corporate, academic, and government networks through standardized communication protocols, particularly TCP/IP.",
       "visualization-internet-cables": {
-        "image-alt": "",
-        "description": "На данному зображені, Ви можете погялнути як виглядають головні кабельні магістралі, котрі зєднюють усі континенти та великі острови між собою в одну мережу."
+        "image-alt": "the main cable routes that connect all continents and large islands into a single network",
+        "description": "On this image, you can see what the main cable highways look like — the ones that connect all the continents and large islands together into a single network."
       },
-      "direction-of-movement": "Окрім цього, станом на сьогодні а саме 2025 року великі корпорації у співпраці з різними державами реалізують бездротову мережу, суть якої полягає у тому аби вивести велику кількість супутників на довколаземну орабіту і таким чином забезпечити мережу без необхідності у прокладані дисятків сотень тисяч кілометрів кабелів по дну океану та прибережних зонах.",
+      "direction-of-movement": "As of today, in 2025, major corporations in collaboration with various governments are implementing a wireless network, the essence of which is to deploy a large number of satellites into low Earth orbit. This approach aims to provide network coverage without the need to lay tens or hundreds of thousands of kilometers of cables along the ocean floor and coastal areas.",
       "visualization-satellites-illustration": {
-        "image-alt": "",
-        "description": "Це рпиблизна ілюстрація того, як це виглядає, окрім цього зараз їх кількість складає близько 8 тисяч, однак ця цифра стрімко  збільшується. "
+        "image-alt": "illustration of the wireless option using satellites",
+        "description": "This is an approximate illustration of how it looks. Currently, their number is about 8,000, but this figure is rapidly increasing."
       },
-      "summary": " Інтернет активно розвивається у сторону бездротових технологій, оскільки це надає ряд переваг, а саме: розвиток космічних технологій, котрі у разі війни буде вважче вивести з роботи, а також це вигідно з економічної сторони, оскільки потребує меншої кількості ресурсів у порівняні з традиційними методами як кабелі та водночач збільшує кількість потенційних кдієнтів, оскільки багато людей проживають у важко доступних місцях де прокладати кабель дуже вважко та економічно не вигідно."
+      "summary": "The Internet is actively developing toward wireless technologies because they offer several advantages, namely: the advancement of space technologies, which are harder to disable in case of war; economic benefits, as wireless requires fewer resources compared to traditional methods like cables; and an increase in the number of potential users, since many people live in hard-to-reach areas where laying cables is very difficult and economically unfeasible."
     },
     "useful-links": {
       "title": "Useful Links",
       "links": {
         "internet-history": {
           "label": "History of Internet",
-          "aria-label": ""
+          "aria-label": "Open in new tab the History of Internet article on Ukraine language"
         },
         "how-does-internet-work": {
           "label": "How does the Internet Work?",
-          "aria-label": ""
+          "aria-label": "Open in new tab the How does the Internet Work? article"
         }
       }
     }

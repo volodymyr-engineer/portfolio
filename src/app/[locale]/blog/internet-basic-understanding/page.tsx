@@ -64,15 +64,14 @@ const Post = () => {
 					<section id={anchors.excursionIntoHistory}>
 						<h3 className="mt-12 text-2xl font-bold tracking-tight text-slate-200">{translation('excursion-into-history.title')}</h3>
 						<p className="mt-6">{translation('excursion-into-history.text.first-part')}</p>
-						<p className="mt-3">{translation('excursion-into-history.text.goal')}</p>
+						<p className="mt-3 indent-4 font-semibold italic">{translation('excursion-into-history.text.goal')}</p>
 						<p className="mt-3">{translation('excursion-into-history.text.second-part')}</p>
 						<p className="mt-3">{translation('excursion-into-history.text.world-wide-web')}</p>
 						<p className="mt-3">{translation('excursion-into-history.text.web-2')}</p>
 					</section>
 					<section id={anchors.acquaintance}>
 						<h3 className="mt-12 text-2xl font-bold tracking-tight text-slate-200">{translation('acquaintance.title')}</h3>
-						<p className="mt-6">{translation('acquaintance.text.first-part')}</p>
-						<p className="mt-6">{translation('acquaintance.text.definition')}</p>
+						<p className="mt-6">{translation('acquaintance.definition')}</p>
 						<Image
 							src="/assets/blog/internet-basic-understanding/internet-cables.map.webp"
 							alt={translation('acquaintance.visualization-internet-cables.image-alt')}
