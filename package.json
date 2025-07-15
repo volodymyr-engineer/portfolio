@@ -7,8 +7,9 @@
     "npm": "10.9.2"
   },
   "repository": {
-    "home-page": "",
-    "repository": "https://github.com/volodymyr-engineer/portfolio"
+    "home-page": "shylo-volodymyr.com",
+    "repository": "https://github.com/volodymyr-engineer/portfolio",
+    "hosting": "https://vercel.com/volodymyrs-projects-4cc8a276/portfolio"
   },
   "author": {
     "name": "Volodymyr Shylo",

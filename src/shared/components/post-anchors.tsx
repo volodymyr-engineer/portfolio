@@ -11,7 +11,7 @@ type Props = {
 
 export const PostAnchors = (props: Props) => (
 	<>
-		<h2 className="mt-10 ml-6 text-lg font-bold text-slate-400 uppercase">{props.title}</h2>
+		<h2 className="mt-10 text-lg font-bold text-slate-200 uppercase">{props.title}</h2>
 		<ul className="mt-2 ml-6">
 			{props.anchors.map((anchor, index) => (
 				<li key={index} className="w-fit">

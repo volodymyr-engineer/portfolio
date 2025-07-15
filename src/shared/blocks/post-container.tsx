@@ -32,8 +32,8 @@ export const PostContainer = (props: Props) => {
 				<PostShare />
 			</header>
 			<main>
-				<h1 className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl">{props.title}</h1>
-				<span className="mt-10 block">{props.publicationDate}</span>
+				<h1 className="text-4xl leading-normal font-bold tracking-tight text-slate-200 sm:text-5xl">{props.title}</h1>
+				<span className="mt-10 block italic">{props.publicationDate}</span>
 				{props.content}
 			</main>
 		</div>
