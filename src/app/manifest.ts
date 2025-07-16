@@ -7,7 +7,7 @@ export default async function manifest(): Promise<MetadataRoute.Manifest> {
 	const translate = await getTranslations({ locale: locale, namespace: 'SEO.web-manifest' });
 
 	return {
-		id: `${process.env.NEXT_PUBLIC_HTTP_PROTOCOL}://${process.env.NEXT_PUBLIC_HTTP_DOMAIN}`,
+		id: `${process.env.NEXT_PUBLIC_HTTP_PROTOCOL}://${process.env.NEXT_PUBLIC_HTTP_DOMAIN}/`,
 		start_url: '/',
 		name: translate('name'),
 		short_name: translate('short-name'),
