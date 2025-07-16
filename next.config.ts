@@ -6,8 +6,8 @@ import type { NextConfig } from 'next';
 export const validationEnvFile = () => {
 	envalid.cleanEnv(process.env, {
 		NEXT_PUBLIC_HTTP_PROTOCOL: envalid.str(),
-		NEXT_PUBLIC_HTTP_DOMAIN: envalid.str()
-		// NEXT_PUBLIC_GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE: envalid.str()
+		NEXT_PUBLIC_HTTP_DOMAIN: envalid.str(),
+		NEXT_PUBLIC_GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE: envalid.str()
 	});
 };
 
