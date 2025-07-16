@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: MetadataProps): Promise<Metad
 		category: translate('category'),
 		classification: translate('classification'),
 		verification: {
-			// google: process.env.NEXT_PUBLIC_GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE
+			google: process.env.NEXT_PUBLIC_GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE
 		},
 		openGraph: {
 			type: 'website',
